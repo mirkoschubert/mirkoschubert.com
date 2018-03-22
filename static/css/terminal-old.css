@@ -9,10 +9,8 @@
 a {
   text-transform: uppercase;
   color: #40FFFF;
-  border-bottom-color: #EA5A5C;
   border-bottom: none;
   padding: 0 3px;
-  margin: 0 -3px;
 }
 
 a:hover {
@@ -33,9 +31,24 @@ a[href*="://"]::after, a[rel*="external"] {
   margin-left: .25rem;
 }
 
-nav a.active {
+.hack nav {
+  display: inline-block;
+}
+
+.hack nav a[itemprop="url"] {
+  display: inline-block;
+  margin-right: .625rem;
+  padding: 0 4px;
+}
+
+.hack nav a.active {
   background-color: #40FFFF;
   color: #101010;
+}
+
+.hack nav.readmore a {
+  margin: 0;
+  padding: 0 3px;
 }
 
 .hack {
@@ -45,20 +58,56 @@ nav a.active {
 }
 
 .hack header {
-  margin-top: 2rem;
+  margin: 2rem 0 4rem;
+  text-align: center;
 }
 
-.hack h1, .hack h2 {
+.hack main header {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.hack footer {
+  text-align: center;
+}
+
+.hack h1, .hack h2, .hack h3, .hack h4 {
   display: inline;
   font-family: "Passion One", "Menlo", "Courier New", monospace;
   /*font-family: "ipm", "Menlo", "Courier New", monospace;*/
   font-weight: 400;
 }
 
-.hack h3, .hack h4 {
+.hack .site-title {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: #28FC91 1px solid;
+  padding-bottom: .75rem;
+  margin-bottom: 1rem;
+}
+
+.hack .site-title h3 {
   display: inline;
-  font-family: "Passion One", "Menlo", "Courier New", monospace;
-  font-weight: 400;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.site-title h3 a {
+  color: #FDBC40;
+  background-color: #101010;
+  margin: 0;
+  padding: 4px 8px;
+}
+
+.site-title h3 a:hover {
+  color: #101010;
+  background-color: #FDBC40;
+}
+
+.site-title h3 a::after {
+  content: '';
+  margin-left: 0;
 }
 
 .hack h1:before, .hack h2::before, .hack h3::before, .hack h4::before {
@@ -86,7 +135,7 @@ nav a.active {
 }
 
 .dark h2 a:hover {
-  background-color: #EAB85A;
+  background-color: #FDBC40;
 }
 
 .hack h3 {
