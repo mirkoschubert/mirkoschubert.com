@@ -31,7 +31,10 @@
       <link rel="next" href="{{ .Params.next }}">
     {{ end }}
     {{ partial "head/favicon.html" . }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/fonts.css" />
     {{ partial "global-styles.html" . }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/terminal-old.css" />
+    <script src="/js/baffle.min.js"></script>
     {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}<!-- http://regexr.com/3f9d1 -->
     {{ if ge (len $lazylist) 1 }}
       <script async src="/js/lazysizes.min.js"></script>
@@ -46,6 +49,9 @@
   <body class="{{ $theme_variant }} main container">
     <header>{{ block "header" . }}{{ end }}</header>
     <main>{{ block "main" . }}{{ end }}</main>
+    <script>baffle('.hack h1').start().reveal(1000);</script>
     <footer>{{ block "footer" . }}{{ end }}</footer>
+    
+    
   </body>
 </html>
