@@ -3,29 +3,6 @@ languageCode = "en-us"
 title = "Mirko Schubert"
 theme = "after-dark"
 
-[[menu.main]]
-  name = "Home"
-  weight = 1
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Posts"
-  weight = 2
-  identifier = "posts"
-  url = "/posts/"
-[[menu.main]]
-  name = "Work"
-  weight = 3
-  identifier = "work"
-  url = "/work/"
-[[menu.main]]
-  name = "Portfolio"
-  weight = 4
-  identifier = "portfolio"
-  url = "/portfolio/"
-
-
-
 related_content_limit = 5
 
 [blackfriday]

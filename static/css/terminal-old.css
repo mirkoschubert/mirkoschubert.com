@@ -121,16 +121,16 @@ a[href*="://"]::after, a[rel*="external"] {
 
 .hack h1 {
   font-size: 2rem;
-  color: #101010;
-  background-color: #FDBC40;
-  padding: 4px 8px;
+  color: #FDBC40;
+  /*background-color: #FDBC40;
+  padding: 4px 8px;*/
 }
 
 .dark h2 a {
   font-size: 1.5rem;
-  color: #101010;
-  background-color: #EA5A5C;
-  padding: 2px 6px;
+  color: #EA5A5C;
+  /*background-color: #EA5A5C;
+  padding: 2px 6px;*/
   border-bottom: none;
 }
 
@@ -139,8 +139,12 @@ a[href*="://"]::after, a[rel*="external"] {
 }
 
 .hack h3 {
-  color: #101010;
-  background-color: #EA5A5C;
+  color: #EA5A5C;
+  /*background-color: #EA5A5C;
+  padding: 2px 6px;*/
   font-size: 1.5rem;
-  padding: 2px 6px;
+}
+
+.dark strong {
+  color: inherit;
 }
