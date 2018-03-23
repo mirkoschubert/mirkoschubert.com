@@ -1,6 +1,7 @@
 ---
 title: "Post No 12"
 description: ""
+author: "mirko"
 date: 2018-03-23T17:50:29+01:00
 type: "article"
 draft: true

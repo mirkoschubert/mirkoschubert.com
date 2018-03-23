@@ -1,6 +1,7 @@
 ---
 title: "My First Post"
 description: "Est animi ex ducimus amet. Quis ipsam aut. Velit vitae suscipit et explicabo. Blanditiis accusantium qui."
+author: "mirko"
 date: 2018-03-21T19:49:16+01:00
 type: "article"
 draft: true

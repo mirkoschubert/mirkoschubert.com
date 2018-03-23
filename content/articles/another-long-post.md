@@ -1,6 +1,7 @@
 ---
 title: "This is another post with a extraordinary long capture!"
 description: "No description"
+author: "mirko"
 date: 2018-03-23T16:25:19+01:00
 type: "article"
 draft: true

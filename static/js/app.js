@@ -16,49 +16,25 @@ function prepareAccessKeys() {
         href:     links[i].getAttribute('href'),
         external: (links[i].hasAttribute('target') && links[i].getAttribute('target') === '_blank')
       });
-
-      for (var j = 0; j < inner.length; j++) {
-        marked += inner[j].toLowerCase() === links[i].getAttribute("accesskey") ? "<strong>" + inner[j] + "</strong>" : inner[j];
-      }
-
-      //console.log(inner + ' -> ' + marked);
-/*       if (links[i].firstElementChild === null) {
-        links[i].innerHTML = marked;
-      } else {
-        links[i].firstElementChild.innerHTML = marked;
-      }
- */    }
+    }
   }
 
   return keys;
 }
 
 
-function addKeyboardListener(bindings) {
-
-  document.onkeypress = function(e) {
-    var keyCode = e.keyCode;
-    //e.preventDefault();
-    console.log(keyCode);
-
-    bindings.forEach(function(sh, i) {
-      if (keyCode === sh.key.charCodeAt()) {
-        if (sh.external) {
-          window.open(sh.href);
-        } else {
-          window.location.pathname = sh.href;
-        }
-      }
-    });
-  };
-}
-
 (function(w, d) {
 
   var bindings = prepareAccessKeys();
   console.log(bindings);
 
-  //addKeyboardListener(shrt);
+  var list = document.getElementsByClassName('articles')[0];
+
+  if (typeof list !== 'undefined') {
+    var activeSibling = list.firstElementChild;
+    activeSibling.setAttribute("class", "active");
+  }
+
 
   document.addEventListener('keydown', function(e) {
     console.log(e);
@@ -67,6 +43,28 @@ function addKeyboardListener(bindings) {
         if (b.external) window.open(b.href); else window.location.pathname = b.href;
       }
     });
+
+    if (e.key === 'ArrowDown') {
+      if (activeSibling.nextElementSibling !== null) {
+        activeSibling.removeAttribute('class');
+        activeSibling.nextElementSibling.setAttribute('class', 'active');
+        activeSibling = activeSibling.nextElementSibling;
+      }
+    }
+    if (e.key === 'ArrowUp') {
+      if (activeSibling.previousElementSibling !== null) {
+        activeSibling.removeAttribute('class');
+        activeSibling.previousElementSibling.setAttribute('class', 'active');
+        activeSibling = activeSibling.previousElementSibling;
+      }
+    }
+    if (e.key === 'Enter') {
+      bindings.forEach(function(b,i) {
+        if (b.key === activeSibling.getElementsByClassName('key')[0].innerHTML) {
+          if (b.external) window.open(b.href); else window.location.pathname = b.href;
+        }
+      });
+    }
   });
 
 })(window, document);

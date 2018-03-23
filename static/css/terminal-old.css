@@ -153,28 +153,39 @@ a[href*="://"]::after, a[rel*="external"] {
   color: #EA5A5C;
 }
 
-.hack .articles > li::after {
+.hack .articles>li::after {
   content: "";
 }
 
 .hack .articles li {
   padding-left: 0;
-  margin-bottom: .825rem;
+  margin-bottom: 0.6rem;
 }
 
 .hack .articles li a {
   display: block;
   width: 100%;
   text-transform: inherit;
+  padding: 0 4px;
 }
 
-.hack .articles li a:hover {
+.hack .articles li a:hover, .hack .articles li.active > a {
   color: #101010;
   background-color: #28FC91;
 }
 
-.hack .articles li a:hover > span {
+.hack .articles li a:hover>span, .hack .articles li.active > a > span {
   color: #101010;
+}
+
+.hack .articles li .key {
+  font-weight: 700;
+  color: #FDBC40;
+  padding-right: .5em;
+}
+
+.hack .articles li .author, .hack .articles li .rdtime, .hack .articles li .date {
+  padding-right: .5em;
 }
 
 .hack .articles li .title {
@@ -182,17 +193,3 @@ a[href*="://"]::after, a[rel*="external"] {
   text-transform: uppercase;
   color: #28FC91;
 }
-
-.hack .articles li .properties {
-  float: right;
-  color: #EA5A5C;
-}
-
-.hack .articles li .rdtime {
-  padding-right: .5rem;
-}
-
-.hack .articles li .date {
-  
-}
-

@@ -1,6 +1,7 @@
 ---
 title: "Another Fine Post"
 description: "This is another great post to read"
+author: "mirko"
 date: 2018-03-23T16:21:25+01:00
 type: "article"
 draft: true
