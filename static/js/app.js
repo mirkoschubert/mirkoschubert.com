@@ -8,7 +8,7 @@ function prepareAccessKeys() {
 
     if (links[i].hasAttribute('accesskey')) {
 
-      var inner = links[i].firstElementChild.innerHTML;
+      var inner = (links[i].firstElementChild === null) ? links[i].innerHTML : links[i].firstElementChild.innerHTML;
       var marked = '';
       
       keys.push({
@@ -22,8 +22,12 @@ function prepareAccessKeys() {
       }
 
       //console.log(inner + ' -> ' + marked);
-      links[i].firstElementChild.innerHTML = marked;
-    }
+/*       if (links[i].firstElementChild === null) {
+        links[i].innerHTML = marked;
+      } else {
+        links[i].firstElementChild.innerHTML = marked;
+      }
+ */    }
   }
 
   return keys;
@@ -34,7 +38,8 @@ function addKeyboardListener(bindings) {
 
   document.onkeypress = function(e) {
     var keyCode = e.keyCode;
-    e.preventDefault();
+    //e.preventDefault();
+    console.log(keyCode);
 
     bindings.forEach(function(sh, i) {
       if (keyCode === sh.key.charCodeAt()) {
@@ -50,9 +55,18 @@ function addKeyboardListener(bindings) {
 
 (function(w, d) {
 
-  var shrt = prepareAccessKeys();
-  console.log(shrt);
+  var bindings = prepareAccessKeys();
+  console.log(bindings);
 
-  addKeyboardListener(shrt);
+  //addKeyboardListener(shrt);
+
+  document.addEventListener('keydown', function(e) {
+    console.log(e);
+    bindings.forEach(function(b, i) {
+      if (e.key === b.key) {
+        if (b.external) window.open(b.href); else window.location.pathname = b.href;
+      }
+    });
+  });
 
 })(window, document);

@@ -120,7 +120,7 @@ a[href*="://"]::after, a[rel*="external"] {
 }
 
 .hack h1 {
-  font-size: 2rem;
+  font-size: 1.825rem;
   color: #FDBC40;
   /*background-color: #FDBC40;
   padding: 4px 8px;*/
@@ -148,3 +148,51 @@ a[href*="://"]::after, a[rel*="external"] {
 .dark strong {
   color: inherit;
 }
+
+.hack .articles {
+  color: #EA5A5C;
+}
+
+.hack .articles > li::after {
+  content: "";
+}
+
+.hack .articles li {
+  padding-left: 0;
+  margin-bottom: .825rem;
+}
+
+.hack .articles li a {
+  display: block;
+  width: 100%;
+  text-transform: inherit;
+}
+
+.hack .articles li a:hover {
+  color: #101010;
+  background-color: #28FC91;
+}
+
+.hack .articles li a:hover > span {
+  color: #101010;
+}
+
+.hack .articles li .title {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #28FC91;
+}
+
+.hack .articles li .properties {
+  float: right;
+  color: #EA5A5C;
+}
+
+.hack .articles li .rdtime {
+  padding-right: .5rem;
+}
+
+.hack .articles li .date {
+  
+}
+

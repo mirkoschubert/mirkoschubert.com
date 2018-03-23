@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Post No 11"
 description: ""
-date: {{ .Date }}
+date: 2018-03-23T17:50:26+01:00
 type: "article"
 draft: true
 ---

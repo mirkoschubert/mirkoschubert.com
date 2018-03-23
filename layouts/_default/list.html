@@ -6,9 +6,33 @@
   <header class="list">
     <h1>{{ .Title }}</h1>
   </header>
-  {{ range .Paginator.Pages }}
-    {{ partial "page-summary.html" . }}
+  <ul class="articles">
+  {{ range $id, $content := .Paginator.Pages }}
+  
+  {{ $key := cond (ge $id 9) 0 (add $id 1) }}
+  
+<!--     {{ printf "%#v" $id }}
+    {{ printf "%#v" $content }} -->
+    <li>
+      <a accesskey="{{ $key }}" href="{{ .URL }}">
+        <span class="title"><strong>{{ $key }}</strong>:{{ .Title }}</span>
+        <span class="properties">
+          <span class="rdtime">{{ .ReadingTime }}m</span>
+          <span class="date">
+          {{ if .PublishDate.IsZero }}
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "02.01.2006" }}</time> P
+          {{ else if lt .PublishDate .Lastmod }}
+            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "02.01.2006" }}</time> M
+          {{ else }}
+            <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "02.01.2006" }}</time> P
+          {{ end }}
+          </span>
+        </span>
+      </a>
+    </li>
+    <!-- {{ partial "page-summary.html" . }} -->
   {{ end }}
+  </ul>
 {{ end }}
 {{ define "footer" }}
   {{ partial "pagination.html" . }}
