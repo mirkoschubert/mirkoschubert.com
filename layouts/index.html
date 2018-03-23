@@ -9,6 +9,7 @@
   <header>
     <h1>{{ .Title }}</h1>
   </header>
+  {{ .Content }}
   {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
     {{ partial "page-summary.html" . }}
   {{ end }}

@@ -29,7 +29,7 @@ function prepareAccessKeys() {
   console.log(bindings);
 
   var list = document.getElementsByClassName('articles')[0];
-
+  
   if (typeof list !== 'undefined') {
     var activeSibling = list.firstElementChild;
     activeSibling.setAttribute("class", "active");

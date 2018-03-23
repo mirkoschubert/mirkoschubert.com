@@ -6,33 +6,36 @@
   <header class="list">
     <h1>{{ .Title }}</h1>
   </header>
-  <ul class="articles">
-  {{ range $id, $content := .Paginator.Pages }}
-  
-  {{ $key := cond (ge $id 9) 0 (add $id 1) }}
-  
-<!--     {{ printf "%#v" $id }}
-    {{ printf "%#v" $content }} -->
-    <li>
-      <a accesskey="{{ $key }}" href="{{ .URL }}">
-        <span class="key">{{ $key }}</span>
-        <span class="author">{{ .Params.author }}</span>
-        <span class="rdtime">{{ .ReadingTime }}m</span>
-        <span class="date">
-        {{ if .PublishDate.IsZero }}
-          <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "Jan 02" }}</time>
-        {{ else if lt .PublishDate .Lastmod }}
-          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "Jan 02" }}</time>
-        {{ else }}
-          <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "Jan 02" }}</time>
-        {{ end }}
-        </span>
-        <span class="title">{{ .Title }}</span>
-      </a>
-    </li>
-    <!-- {{ partial "page-summary.html" . }} -->
+  {{ .Content }}
+  {{ if gt (len .Paginator.Pages) 0 }}
+    <ul class="articles">
+    {{ range $id, $content := .Paginator.Pages }}
+    
+    {{ $key := cond (ge $id 9) 0 (add $id 1) }}
+    
+  <!--     {{ printf "%#v" $id }}
+      {{ printf "%#v" $content }} -->
+      <li>
+        <a accesskey="{{ $key }}" href="{{ .URL }}">
+          <span class="key">{{ $key }}</span>
+          <span class="author">{{ .Params.author }}</span>
+          <span class="rdtime">{{ .ReadingTime }}m</span>
+          <span class="date">
+          {{ if .PublishDate.IsZero }}
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "Jan 02" }}</time>
+          {{ else if lt .PublishDate .Lastmod }}
+            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "Jan 02" }}</time>
+          {{ else }}
+            <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "Jan 02" }}</time>
+          {{ end }}
+          </span>
+          <span class="title">{{ .Title }}</span>
+        </a>
+      </li>
+      <!-- {{ partial "page-summary.html" . }} -->
+    {{ end }}
+    </ul>
   {{ end }}
-  </ul>
 {{ end }}
 {{ define "footer" }}
   {{ partial "pagination.html" . }}
