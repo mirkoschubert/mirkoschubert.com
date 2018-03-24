@@ -74,10 +74,6 @@ a[rel*="external"],
   margin: 2rem 0;
 }
 
-.hack footer {
-  text-align: center;
-}
-
 .hack h1, .hack h2, .hack h3, .hack h4 {
   display: inline;
   font-family: "Passion One", "Menlo", "Courier New", monospace;

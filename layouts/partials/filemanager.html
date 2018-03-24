@@ -1,0 +1,43 @@
+{{ if gt (len .Paginator.Pages) 0 }}
+  <ul class="articles">
+  {{ if .Params.backUrl }}
+    <li>
+      <a accesskey="." href="{{ .Params.backUrl }}">
+        <span class="key">.</span>
+        <span class="author">mirko</span>
+        <span class="rdtime">--</span>
+        <span class="date">-- --- --</span>
+        <span class="title">[..]</span>
+        </a>
+    </li>
+  {{ end }}
+
+  {{ range $id, $content := .Paginator.Pages }}
+
+  {{ $key := cond (ge $id 9) 0 (add $id 1) }}
+
+    <!-- {{ printf "%#v" .URL }} -->
+    <li>
+      <a accesskey="{{ $key }}" href="{{ .URL }}" {{ if .Params.external }}target="_blank"{{ end }}>
+        <span class="key">{{ $key }}</span>
+        <span class="author">{{ .Params.author }}</span>
+        <span class="rdtime">{{ if or (.Params.external) (.Params.directory)  }}--{{ else }}{{ .ReadingTime }}m{{ end }}</span>
+        <span class="date">
+        {{ if .PublishDate.IsZero }}
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "06 Jan 02" }}</time>
+        {{ else if lt .PublishDate .Lastmod }}
+          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "06 Jan 02" }}</time>
+        {{ else }}
+          <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "06 Jan 02" }}</time>
+        {{ end }}
+        </span>
+        <span class="title">
+        {{ if .Params.directory }}
+          [{{ .Title }}]
+        {{ else }}{{ .Title }}{{ end }}
+        </span>
+      </a>
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}
