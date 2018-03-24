@@ -1,7 +1,7 @@
 ---
 title: "WWDC 2012: Apple stellt iOS vor (DE)"
 description: 'Neben einer neuen MacBook Reihe sowie einer Vorschau auf Mac OSX 10.8 "Mountain Lion" hat Apple am Montagabend die nächste Version seines mobilen Betriebssystems iOS 6 vorgestellt.'
-author: "mirko"
+author: "4phon"
 date: 2012-06-12T21:30:57+01:00
 publishdate: 2012-06-12T21:30:57+01:00
 #lastmod: 

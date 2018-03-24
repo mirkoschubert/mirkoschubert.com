@@ -1,7 +1,7 @@
 ---
 title: "WordPress: Footer Menü als String erstellen (DE)"
 description: "Ob Impressum, Datenschutzerklärung oder Mediadaten — ein Footer-Menü ist auf vielen Webseiten obsolet."
-author: "mirko"
+author: "flabw"
 date: 2014-04-29T17:26:06+01:00
 publishdate: 2014-04-29T17:26:06+01:00
 #lastmod: 
