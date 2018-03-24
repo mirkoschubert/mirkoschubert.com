@@ -1,7 +1,4 @@
-{{ define "header" }}
-  {{ partial "branding.html" . }}
-  {{ partial "menu.html" . }}
-{{ end }}
+{{ define "header" }}{{ end }}
 {{ define "main" }}
   <header class="list">
     <h1>{{ .Title }}</h1>
@@ -37,5 +34,7 @@
 {{ end }}
 {{ define "footer" }}
   {{ partial "pagination.html" . }}
-  {{ partial "powered-by.html" . }}
+  <hr>
+  {{ partial "footer-menu.html" . }}
+<!--   {{ partial "powered-by.html" . }} -->
 {{ end }}

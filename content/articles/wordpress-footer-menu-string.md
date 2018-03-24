@@ -4,7 +4,7 @@ description: "Ob Impressum, Datenschutzerklärung oder Mediadaten — ein Fo
 author: "mirko"
 date: 2014-04-29T17:26:06+01:00
 publishdate: 2014-04-29T17:26:06+01:00
-lastmod: 
+#lastmod: 
 type: "article"
 images:
   - "/images/sunset.jpg"

@@ -31,9 +31,13 @@
       <link rel="next" href="{{ .Params.next }}">
     {{ end }}
     {{ partial "head/favicon.html" . }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/fonts.css" />
-    {{ partial "global-styles.html" . }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/terminal-old.css" />
+    <!-- NEW CSS DECLARATIONS -->
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/theme-old.css" />
+    <link rel="stylesheet" href="/css/terminal-old.css" />
+    <link rel="stylesheet" href="/css/colorschemes/trmnl.css" />
+
     <script src="{{ .Site.BaseURL }}/js/baffle.min.js"></script>
     {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}<!-- http://regexr.com/3f9d1 -->
     {{ if ge (len $lazylist) 1 }}
@@ -46,12 +50,23 @@
     {{ end }}
   </head>
   {{ $theme_variant := .Site.Params.theme_variant | default "hack dark" }}
-  <body class="{{ $theme_variant }} main container">
-    <header>{{ block "header" . }}{{ end }}</header>
-    <main>{{ block "main" . }}{{ end }}</main>
+  <body class="{{ $theme_variant }}">
+    <header class="site-header">
+      {{ block "header" . }}
+        {{ partial "branding.html" . }}
+        <hr>
+        {{ partial "main-menu.html" . }}
+      {{ end }}
+    </header>
+    <main class="site-main container">{{ block "main" . }}{{ end }}</main>
     <script>baffle('.hack h1').start().reveal(1000);</script>
-    <footer>{{ block "footer" . }}{{ end }}</footer>
-    
+    <footer class="site-footer">
+      {{ block "footer" . }}
+        <hr>
+        {{ partial "footer-menu.html" . }}
+        <!-- {{ partial "powered-by.html" . }} -->
+      {{ end }}
+    </footer>
     <script src="{{ .Site.BaseURL }}/js/app.js"></script>
   </body>
 </html>

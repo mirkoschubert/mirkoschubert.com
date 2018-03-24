@@ -41,6 +41,7 @@ a[rel*="external"],
   display: inline-block;
 }
 
+
 .hack nav a[itemprop="url"] {
   display: inline-block;
   margin-right: .625rem;
@@ -82,38 +83,6 @@ a[rel*="external"],
   font-family: "Passion One", "Menlo", "Courier New", monospace;
   /*font-family: "ipm", "Menlo", "Courier New", monospace;*/
   font-weight: 400;
-}
-
-.hack .site-title {
-  display: block;
-  width: 60%;
-  margin: 0 auto;
-  border-bottom: #28FC91 1px solid;
-  padding-bottom: .75rem;
-  margin-bottom: 1rem;
-}
-
-.hack .site-title h3 {
-  display: inline;
-  padding: 0;
-  font-size: 2rem;
-}
-
-.site-title h3 a {
-  color: #FDBC40;
-  background-color: #101010;
-  margin: 0;
-  padding: 4px 8px;
-}
-
-.site-title h3 a:hover {
-  color: #101010;
-  background-color: #FDBC40;
-}
-
-.site-title h3 a::after {
-  content: '';
-  margin-left: 0;
 }
 
 .hack h1:before, .hack h2::before, .hack h3::before, .hack h4::before {
@@ -159,13 +128,9 @@ a[rel*="external"],
   color: #EA5A5C;
 }
 
-.hack .articles>li::after {
-  content: "";
-}
-
 .hack .articles li {
   padding-left: 0;
-  margin-bottom: 0.6rem;
+  margin-bottom: .5em;
 }
 
 .hack .articles li a {
@@ -187,11 +152,10 @@ a[rel*="external"],
 .hack .articles li .key {
   font-weight: 700;
   color: #FDBC40;
-  padding-right: .5em;
 }
 
-.hack .articles li .author, .hack .articles li .rdtime, .hack .articles li .date {
-  padding-right: .5em;
+.hack .articles li .key, .hack .articles li .author, .hack .articles li .rdtime, .hack .articles li .date {
+  padding-right: .325em;
 }
 
 .hack .articles li .title {

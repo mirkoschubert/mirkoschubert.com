@@ -4,7 +4,7 @@ description: "Ein noch ganz junger Routenplaner für das Fahrrad ist Naviki. Die
 author: "mirko"
 date: 2010-03-18T14:45:00+01:00
 publishdate: 2010-03-18T14:45:00+01:00
-lastmod: 
+# lastmod: 
 type: "article"
 url: "//www.netzwelt.de/news/82243-routenplaner-fahrrad-naviki-test.html"
 external: true

@@ -1,7 +1,7 @@
 baseURL = "https://mirkoschubert.com/"
 languageCode = "en-us"
 title = "Mirko Schubert"
-theme = "after-dark"
+theme = "after-dark" # hacktivist
 
 related_content_limit = 5
 

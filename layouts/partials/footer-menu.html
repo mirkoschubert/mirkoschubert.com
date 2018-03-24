@@ -1,0 +1,12 @@
+{{ if ne .Site.Params.show_menu false }}
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+  {{ $currentNode := . }} {{ range .Site.Menus.footer }}
+  <!--   {{ printf "%#v" ($currentNode.IsMenuCurrent "main" . ) }} -->
+
+  <a itemprop="url" accesskey="{{ .Post }}" class="{{if or ($currentNode.IsMenuCurrent "footer" .) ($currentNode.HasMenuCurrent "footer" .) }}active{{end}}" href="{{ .URL }}">
+    <span itemprop="name">
+      <strong>{{ .Post }}</strong>:{{ .Name }}</span>
+  </a>
+  {{ end }}
+</nav>
+{{ end }}

@@ -4,7 +4,7 @@ description: 'Neben einer neuen MacBook Reihe sowie einer Vorschau auf Mac OSX 1
 author: "mirko"
 date: 2012-06-12T21:30:57+01:00
 publishdate: 2012-06-12T21:30:57+01:00
-lastmod: 
+#lastmod: 
 type: "article"
 url: "//www.4phones.de/Ticker_WWDC_2012_Apple_stellt_iOS_6_vor_und_veroeffentlicht_Beta_Version_5512.html"
 external: true

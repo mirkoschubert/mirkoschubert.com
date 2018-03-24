@@ -4,7 +4,7 @@ description: "Mit dem Wave-Editor WavePad Sound Editor von NHC Software können 
 author: "mirko"
 date: 2010-01-08T18:01:35+01:00
 publishdate: 2010-01-08T18:01:35+01:00
-lastmod: 
+#lastmod: 
 type: "article"
 url: "//www.netzwelt.de/news/81485-anleitung-audiobearbeitung-wavepad.html"
 external: true
