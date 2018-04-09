@@ -11,4 +11,4 @@ menu:
     post: "p"
 ---
 
-Minima ratione voluptas nobis libero quam. Quas qui omnis ipsa incidunt harum quam neque dolor. Vero laboriosam rem est fugiat delectus dolore. Est libero maiores voluptatem repellendus ratione impedit dolorem. Voluptatem velit aliquam quia numquam tenetur cupiditate dolore eaque.
+Minima ratione voluptas nobis libero quam. Quas qui omnis ipsa incidunt harum quam neque dolor.

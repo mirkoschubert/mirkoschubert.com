@@ -1,5 +1,5 @@
 ---
-title: "Hello, friend"
+title: "Dear friend"
 date: 2018-03-21T19:49:16+01:00
 draft: true
 menu:
@@ -11,4 +11,4 @@ menu:
     post: "h"
 ---
 
-Nulla occaecati magni ipsam atque corrupti est sit. Unde magnam voluptatem nisi natus placeat eveniet. Facere ut voluptas ratione dolores ut cum beatae qui. Unde beatae voluptates reprehenderit non dicta dolores commodi reprehenderit id. Quod quae totam expedita impedit laudantium animi. Ut recusandae ut et quia id sunt nesciunt.
+I'm a musician, journalist, author, photographer and web developer from Hamburg, Germany. I hold a graduate degree in music education. Feel free to poke around my site!
