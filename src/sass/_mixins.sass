@@ -6,6 +6,12 @@
   @media screen and (max-width: 768px)
     @content
 
-=smartphone
+// portrait phone (< 480px) in em
+=smartphone-em
   @media only screen and (max-width: 30em)
+    @content
+
+// portrait phone (< 480px)
+=smartphone
+  @media screen and (max-width: 480px)
     @content

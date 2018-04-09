@@ -18,7 +18,7 @@
 
     <!-- {{ printf "%#v" .URL }} -->
     <li>
-      <a accesskey="{{ $key }}" href="{{ .URL }}" {{ if .Params.external }}target="_blank"{{ end }}>
+      <a accesskey="{{ $key }}" href="{{ .URL }}" {{ if .Params.external }}rel="noreferrer" target="_blank"{{ end }}>
         <span class="key">{{ $key }}</span>
         <span class="author">{{ .Params.author }}</span>
         <span class="rdtime">{{ if or (.Params.external) (.Params.directory)  }}--{{ else }}{{ .ReadingTime }}m{{ end }}</span>

@@ -4,7 +4,8 @@
 
 @import grid
 @import navigation
-@import typography  
+@import typography
+@import elements
 
 main, footer
   animation: intro 0.3s both
@@ -14,7 +15,7 @@ footer time[datetime$='M']
   &:before
     content: '\2013\0020'
 
-  +smartphone  
+  +smartphone-em
     display: none;
 
 .container

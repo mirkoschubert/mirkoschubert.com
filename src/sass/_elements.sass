@@ -1,0 +1,98 @@
+// ARTICLE
+article [itemprop='description']
+  margin-bottom: 20px
+  margin-top: 20px
+
+.articles
+  color: $headline-alt-color
+
+  li
+    margin-bottom: 0.5em
+    padding-left: 0
+
+    a
+      display: block
+      padding: 0 4px
+      text-transform: inherit
+      width: 100%
+
+    a:hover, &.active > a
+      background-color: $text-color
+      color: $background
+
+
+    a:hover > span, &.active > a > span
+      color: $background
+
+    .key
+      color: #fdbc40
+      font-weight: 700
+
+    .key, .author, .rdtime, .date
+      padding-right: 0.325em
+
+    .title
+      color: #28fc91
+      font-weight: 400
+      text-transform: uppercase
+// PROGRESS BAR
+.progress-bar
+  background-color: #ccc
+  height: 8px
+  margin-top: 12px
+  opacity: 0.8
+
+  &.progress-bar-show-percent
+    margin-top: 38px
+
+.progress-bar-filled
+  background-color: gray
+  height: 100%
+  position: relative
+  transition: width 0.3s ease
+  width: 0
+
+  &:before
+    border: 6px solid transparent
+    border-top-color: gray
+    content: ''
+    position: absolute
+    right: -6px
+    top: -12px
+
+  &:after
+    border: 6px solid transparent
+    color: gray
+    content: attr(data-filled)
+    display: block
+    font-size: 12px
+    position: absolute
+    right: 0
+    top: -38px
+    transform: translateX(50%)
+    white-space: nowrap
+
+// MEDIA
+.media:not(:last-child)
+  margin-bottom: 1.25rem
+
+.media-left
+  padding-right: 1rem
+
+.media-left, .media-right
+  display: table-cell
+  vertical-align: top
+
+.media-right
+  padding-left: 1rem
+
+.media-body
+  display: table-cell
+  vertical-align: top
+
+.media-heading
+  font-size: 1.16667rem
+  font-weight: 700
+
+.media-content
+  margin-top: 0.3rem

@@ -13,7 +13,7 @@ rules:
   extends-before-declarations: 2
   placeholder-in-extend: 2
   mixins-before-declarations:
-    - 2
+    - 1
     -
       exclude:
         - breakpoint
@@ -22,7 +22,7 @@ rules:
   no-warn: 1
   no-debug: 1
   no-ids: 2
-  no-important: 2
+  no-important: 0
   hex-notation:
     - 1
     - style: lowercase
