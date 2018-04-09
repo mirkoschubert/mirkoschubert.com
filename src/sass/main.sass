@@ -3,4 +3,42 @@
 @import mixins
 
 @import grid
+@import navigation
 @import typography  
+
+main, footer
+  animation: intro 0.3s both
+  animation-delay: 0.15s
+
+footer time[datetime$='M']
+  &:before
+    content: '\2013\0020'
+
+  +smartphone  
+    display: none;
+
+.container
+  max-width: 70rem
+
+  +desktop
+    max-width: 50rem
+
+.container, .container-fluid
+  margin: 2em auto
+  padding: 0 1rem
+
+.hack
+  header
+    margin: 2rem 0 4rem
+    text-align: center
+  
+  main
+    min-height: 45vh
+
+    header
+      margin: 2rem 0
+      text-align: left
+
+  footer
+    margin-bottom: 2rem
+    text-align: center

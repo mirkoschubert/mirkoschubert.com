@@ -5,15 +5,108 @@ html
   box-sizing: border-box
   text-rendering: geometricPrecision
 
+
 body
+  background-color: $background
+  color: $text-color
+  font-family: "Hack", "Menlo", "Courier New", monospace
   font-size: 1rem
+  font-style: normal
+  font-weight: 400
   line-height: 1.5rem
   margin: 0
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif
   word-wrap: break-word
 
 h1, h2, h3, h4, h5, h6
-  line-height: 1.3em
+  display: inline
+  font-family: "Passion One", "Hack", "Menlo", "Courier New", monospace
+  font-weight: 400
+  line-height: 1.3rem
+  margin: 0
+  padding: 0
+  position: relative
+
+h1, h2
+  color: $headline-color
+  font-size: 1.825rem
+
+h3, h4, h5, h6
+  color: $headline-alt-color
+  font-size: 1.5rem
+
+
+fieldset
+  border: none
+  margin: 0
+  padding: 0
+
+pre
+  background-color: #fff
+  border: 1px solid #ccc
+  margin: 1.75rem 0
+  overflow: auto
+  padding: 2rem
+
+code[class*='language-'], pre[class*='language-'], pre code
+  font-weight: 100
+  margin: 1.75rem 0
+  text-shadow: none
+
+a
+  color: $blue-highlight
+  cursor: pointer
+  padding: 0 3px    
+  text-decoration: none
+  text-transform: uppercase
+
+  &:hover
+    background-color: $blue-highlight
+    color: $background
+
+  &[itemprop="url"]
+    color: $blue-highlight
+
+    &:hover
+      color: $background
+
+
+
+.hack
+  blockquote, code, em, strong
+    line-height: 20px
+  
+  blockquote, code, footer, header, h1, h2, h3, h4, h5, h6, li, ol, p, section, ul
+    float: none
+    margin: 0
+    padding: 0
+  
+  blockquote, h1, ol, p, ul
+    margin-bottom: 20px  
+    margin-top: 20px
+
+  h3.site-title
+    display: block
+    font-size: 2rem
+    margin: 0 auto
+
+    a
+      color: $headline-color
+      display: inline-block
+      margin: 0
+      padding: 4px 8px
+
+      &:hover
+        background-color: $headline-color
+        color: $background
+
+      &::after
+        content: ''
+        margin-left: 0
+  
+  p.site-slogan
+    margin: 0 0 1.5em 0
+
+
 
 
 
