@@ -1,0 +1,94 @@
+.grid
+  display: flex
+  flex-wrap: wrap
+
+  &.\-top
+    -ms-flex-align: start
+    -ms-grid-row-align: flex-start
+    align-items: flex-start
+
+  &.\-middle
+    -ms-flex-align: center
+    -ms-grid-row-align: center
+    align-items: center
+
+  &.\-bottom
+    -ms-flex-align: end
+    -ms-grid-row-align: flex-end
+    align-items: flex-end
+
+  &.\-stretch
+    -ms-flex-align: stretch
+    -ms-grid-row-align: stretch
+    align-items: stretch
+
+  &.\-baseline
+    -ms-flex-align: baseline
+    -ms-grid-row-align: baseline
+    align-items: baseline
+
+  &.\-left
+    -ms-flex-pack: start
+    justify-content: flex-start
+
+  &.\-center
+    -ms-flex-pack: center
+    justify-content: center
+
+  &.\-right
+    -ms-flex-pack: end
+    justify-content: flex-end
+
+  &.\-between
+    -ms-flex-pack: justify
+    justify-content: space-between
+
+  &.\-around
+    -ms-flex-pack: distribute
+    justify-content: space-around
+    
+  +handheld
+    flex-direction: column
+
+.cell
+  -ms-flex: 1
+  flex: 1
+  box-sizing: border-box
+
+  +desktop
+    &.\-1of12
+      flex: 0 0 8.33333%
+
+    &.\-2of12
+      flex: 0 0 16.66667%
+
+    &.\-3of12
+      flex: 0 0 25%
+
+    &.\-4of12
+      flex: 0 0 33.33333%
+
+    &.\-5of12
+      flex: 0 0 41.66667%
+
+    &.\-6of12
+      flex: 0 0 50%
+
+    &.\-7of12
+      flex: 0 0 58.33333%
+
+    &.\-8of12
+      flex: 0 0 66.66667%
+
+    &.\-9of12
+      flex: 0 0 75%
+
+    &.\-10of12
+      flex: 0 0 83.33333%
+
+    &.\-11of12
+      flex: 0 0 91.66667%
+    
+  +handheld
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
