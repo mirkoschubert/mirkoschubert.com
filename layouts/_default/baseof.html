@@ -35,11 +35,7 @@
     {{ partial "head/favicon.html" . }}
     <!-- NEW CSS DECLARATIONS -->
     <link rel="stylesheet" href="/assets/css/fonts.css" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/main.min.css" />
-    <link rel="stylesheet" href="/assets/css/theme-old.css" />
-    <link rel="stylesheet" href="/assets/css/terminal-old.css" />
-    <link rel="stylesheet" href="/assets/css/colorschemes/trmnl.css" />
 
     <script src="{{ .Site.BaseURL }}/assets/js/baffle.min.js"></script>
     {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}<!-- http://regexr.com/3f9d1 -->

@@ -64,6 +64,10 @@
   &:focus
     border-color: #555
   
+fieldset
+  border: none
+  margin: 0
+  padding: 0
 
 textarea.form-control
   border-bottom: 2px solid #ccc
@@ -89,6 +93,8 @@ select.form-control
 .form-actions
   margin-bottom: 1.75rem
 
+
+
 .btn
   -ms-flex-align: center
   -ms-flex-pack: center
@@ -102,6 +108,14 @@ select.form-control
   position: relative
   user-select: none
   z-index: 1
+
+  .loading
+    height: 14px
+    margin-bottom: 0
+    width: 14px
+
+  div.loading
+    float: left
 
   &:active
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12)
@@ -300,3 +314,4 @@ select.form-control
       &:focus, &:hover
         border-color: #ffb74d
         color: #ffb74d
+

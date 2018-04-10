@@ -14,3 +14,27 @@ nav
   &.readmore a
     margin: 0
     padding: 0 3p
+
+.menu
+  width: 100%
+
+  .menu-item
+    border-color: #616161
+    color: #616161
+    display: block
+
+    &.active, &:hover
+      background-color: transparent
+      border-color: #000
+      color: #000
+
+.dark
+  .menu 
+    .menu-item
+      border-color: rgba(95, 95, 95, 0.78)
+      color: #ccc
+
+      &.active, &:hover
+        border-color: #ccc
+        color: #fff
+
