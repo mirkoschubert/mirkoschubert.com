@@ -3,8 +3,8 @@ article [itemprop='description']
   margin-bottom: 20px
   margin-top: 20px
 
-.articles
-  color: $headline-alt-color
+.filemanager
+  color: $fm-default
 
   li
     margin-bottom: 0.5em
@@ -17,24 +17,38 @@ article [itemprop='description']
       width: 100%
 
     a:hover, &.active > a
-      background-color: $text-color
+      background-color: $fm-highlight
       color: $background
 
+    a[href*="//"] > span.title::after
+      color: $fm-external
+      content: '&>'
 
-    a:hover > span, &.active > a > span
+    a:hover > span, a:hover > span.title::after, &.active > a > span, &.active > a > span.title::after
       color: $background
 
     .key
-      color: #fdbc40
+      color: $fm-key
       font-weight: 700
+      padding-right: 0.325em
 
-    .key, .author, .rdtime, .date
+    .author
+      color: $fm-author
+      padding-right: 0.325em
+
+    .rdtime
+      color: $fm-rdtime
+      padding-right: 0.325em
+
+    .date
+      color: $fm-date
       padding-right: 0.325em
 
     .title
-      color: #28fc91
+      color: $fm-title
       font-weight: 400
       text-transform: uppercase
+
 
 // PROGRESS BAR
 .progress-bar

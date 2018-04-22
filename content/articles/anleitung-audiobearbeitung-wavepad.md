@@ -7,6 +7,7 @@ publishdate: 2010-01-08T18:01:35+01:00
 #lastmod: 
 type: "article"
 url: "//www.netzwelt.de/news/81485-anleitung-audiobearbeitung-wavepad.html"
+headless: true
 external: true
 draft: false
 ---

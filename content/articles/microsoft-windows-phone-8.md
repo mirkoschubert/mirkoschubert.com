@@ -7,7 +7,7 @@ publishdate: 2012-06-20T14:27:29+01:00
 #lastmod: 
 type: "article"
 url: "//www.4phones.de/Ticker_Microsoft_Windows_Phone_8_vorgestellt_5517.html"
+headless: true
 external: true
 draft: false
 ---
-

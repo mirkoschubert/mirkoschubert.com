@@ -7,7 +7,7 @@ publishdate: 2012-06-12T21:30:57+01:00
 #lastmod: 
 type: "article"
 url: "//www.4phones.de/Ticker_WWDC_2012_Apple_stellt_iOS_6_vor_und_veroeffentlicht_Beta_Version_5512.html"
+headless: true
 external: true
 draft: false
 ---
-

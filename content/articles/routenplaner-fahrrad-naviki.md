@@ -7,6 +7,7 @@ publishdate: 2010-03-18T14:45:00+01:00
 # lastmod: 
 type: "article"
 url: "//www.netzwelt.de/news/82243-routenplaner-fahrrad-naviki-test.html"
+headless: true
 external: true
 draft: false
 ---

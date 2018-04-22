@@ -28,7 +28,7 @@ function prepareAccessKeys() {
   var bindings = prepareAccessKeys();
   console.log(bindings);
 
-  var list = document.getElementsByClassName('articles')[0];
+  var list = document.getElementsByClassName('filemanager')[0];
   
   if (typeof list !== 'undefined') {
     var activeSibling = list.firstElementChild;
