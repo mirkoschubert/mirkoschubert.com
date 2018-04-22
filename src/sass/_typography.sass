@@ -11,7 +11,7 @@ html
 
 body
   background-color: $background
-  color: $text-color
+  color: $text-default
   font-family: "Hack", "Menlo", "Courier New", monospace
   font-size: 1rem
   font-style: normal
@@ -30,29 +30,29 @@ h1, h2, h3, h4, h5, h6
   position: relative
 
 h1, h2
-  color: $headline-color
+  color: $headline
   font-size: 1.825rem
 
 h3, h4, h5, h6
-  color: $headline-alt-color
+  color: $headline-alt
   font-size: 1.5rem
 
 p
   margin: 0 0 1.75rem
 
 a
-  color: $blue-highlight
+  color: $link
   cursor: pointer
   padding: 0 3px    
   text-decoration: none
   text-transform: uppercase
 
   &:hover
-    background-color: $blue-highlight
+    background-color: $link
     color: $background
 
   &[itemprop="url"]
-    color: $blue-highlight
+    color: $link
 
     &:hover
       color: $background
@@ -96,6 +96,23 @@ code[class*='language-'], pre[class*='language-'], pre code
   font-weight: 100
   margin: 1.75rem 0
   text-shadow: none
+
+dl
+  dt
+    clear: left
+    color: $list-pre
+    float: left
+    margin-bottom: .625em
+    width: 150px
+
+  dd
+    color: $list-default
+    margin-left: 160px
+
+    &:after
+      clear: both
+      content: ''
+      display: block
 
 table
   border-collapse: collapse
@@ -175,13 +192,13 @@ iframe
     margin: 0 auto
 
     a
-      color: $headline-color
+      color: $headline
       display: inline-block
       margin: 0
       padding: 4px 8px
 
       &:hover
-        background-color: $headline-color
+        background-color: $headline
         color: $background
 
       &::after
@@ -196,7 +213,7 @@ iframe
 
   hr
     border: 0
-    border-top: 1px dashed $text-color
+    border-top: 1px dashed $text-default
     height: 1px
     margin: 1em 0
     overflow: hidden

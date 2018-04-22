@@ -34,15 +34,15 @@ For listings like the article section and my portfolio there are two possible na
 <dl>
 <dt>0-9</dt><dd>select entry shown in the listing</dd>
 <dt>.</dt><dd>go back</dd>
-<dt>&lt;ArrowLeft&gt; | &lt;ArrowRight&gt;</dt><dd>flip through the pagination</dd>
+<dt>&lt;ArrowLeft&gt; &lt;ArrowRight&gt;</dt><dd>flip through the pagination</dd>
 </dl>
 
 or
 
 <dl>
-<dt>&lt;ArrowUp&gt; | &lt;ArrowDown&gt;</dt><dd>navigate through the entries</dd>
+<dt>&lt;ArrowUp&gt; &lt;ArrowDown&gt;</dt><dd>navigate through the entries</dd>
 <dt>&lt;Return&gt;</dt><dd>open the selected item</dd>
-<dt>&lt;ArrowLeft&gt; | &lt;ArrowRight&gt;</dt><dd>flip through the pagination</dd>
+<dt>&lt;ArrowLeft&gt; &lt;ArrowRight&gt;</dt><dd>flip through the pagination</dd>
 </dl>
 
 ### Reading articles
