@@ -1,7 +1,7 @@
 ---
 title: "silenced-world.de"
 author: "mirko"
-date: 2018-03-21T19:49:16+01:00
+date: 2009-08-28T19:49:16+01:00
 backUrl: "/portfolio/websites/"
 draft: true
 ---

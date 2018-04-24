@@ -1,7 +1,7 @@
 ---
 title: "minimalismus-tipps.de"
 author: "mirko"
-date: 2018-03-21T19:49:16+01:00
+date: 2016-07-29T19:49:16+01:00
 backUrl: "/portfolio/websites/"
 draft: true
 ---
