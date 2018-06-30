@@ -1,13 +1,30 @@
-baseURL: 'https://mirkoschubert.com/'
-languageCode: en-us
-title: Mirko Schubert
+DefaultContentLanguage: en
+languages:
+  en:
+    baseURL: 'https://mirkoschubert.com'
+    contentDir: content.en
+    languageName: English
+    languageCode: en-us
+    title: Mirko Schubert
+    slogan: Journalist ∙ Musician ∙ Photographer
+    weight: 1
+  de:
+    baseUrl: 'https://mirkoschubert.de'
+    contentDir: content.de
+    languageName: Deutsch
+    languageCode: de-de
+    title: Mirko Schubert
+    slogan: Journalist ∙ Musiker ∙ Fotograf
+    permalinks:
+      articles: '/artikel/:title'
+    weight: 2
 theme: after-dark
 related_content_limit: 5
 disableKinds:
   - taxonomy
   - taxonomyTerm
 ignoreFiles:
-  - "static/assets/sass/*"
+  - static/assets/sass/*
 blackfriday:
   hrefTargetBlank: true
   fractions: false

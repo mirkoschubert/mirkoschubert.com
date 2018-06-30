@@ -1,8 +1,8 @@
 {{ if gt (len .Paginator.Pages) 0 }}
   <ul class="filemanager">
-  {{ if .Params.backUrl }}
+  {{ if .Params.urls.back }}
     <li>
-      <a accesskey="." href="{{ .Params.backUrl }}">
+      <a accesskey="." href="{{ .Params.urls.back }}">
         <span class="key">.</span>
         <span class="author">mirko</span>
         <span class="rdtime">--</span>
