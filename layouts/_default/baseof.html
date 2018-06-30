@@ -34,16 +34,12 @@
     <!-- NEW CSS DECLARATIONS -->
     <link rel="stylesheet" href="/assets/css/fonts.css" />
     <link rel="stylesheet" href="/assets/css/main.min.css" />
+    {{ if eq .Type "music" }}<link rel="stylesheet" href="/assets/css/aplayer.css" />{{ end }}
 
     <script src="{{ .Site.BaseURL }}/assets/js/baffle.min.js"></script>
     {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}<!-- http://regexr.com/3f9d1 -->
     {{ if ge (len $lazylist) 1 }}
       <script async src="/assets/js/lazysizes.min.js"></script>
-    {{ end }}
-    {{ if ne .Site.Params.seo.disable_bpg true }}
-      <script async src="/assets/js/bpgdec8a.js"></script>
-      <script async src="/assets/js/bpgdec8.js"></script>
-      <script async src="/assets/js/bpgdec.js"></script>
     {{ end }}
   </head>
   {{ $theme_variant := .Site.Params.theme_variant | default "hack dark" }}
@@ -64,6 +60,7 @@
         <!-- {{ partial "powered-by.html" . }} -->
       {{ end }}
     </footer>
+    {{ if eq .Type "music" }}<script src="/assets/js/aplayer.min.js"></script>{{ end }}
     <script src="/assets/js/typewriter.js"></script>
     <script src="/assets/js/app.js"></script>
   </body>

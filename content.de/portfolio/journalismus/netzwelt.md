@@ -1,17 +1,12 @@
 ---
-title: "Tage wie diese (Album)"
+title: "Netzwelt.de"
 author: "mirko"
-date: 2004-03-21T19:49:16+01:00
+date: 2018-05-27T19:49:16+01:00
 urls:
-  back: "/portfolio/musik/"
-type: music
+  back: "/portfolio/journalismus/"
+  visit: "https://www.netzwelt.de"
+type: journalism
 draft: false
 ---
 
 Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
-
-<dl>
-  <dt>Veröffentl.</dt><dd>2004</dd>
-  <dt>Genre</dt><dd>Singer-Sonwriter</dd>
-  <dt>Kaufen</dt><dd><a href="" target="_blank">iTunes</a></dd>
-</dl>

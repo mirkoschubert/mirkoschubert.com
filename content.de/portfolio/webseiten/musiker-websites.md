@@ -1,13 +1,17 @@
 ---
 title: "musiker-websites.de"
 author: "mirko"
-date: 2010-06-25T19:49:16+01:00
+date: 2009-10-25T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/20151001000000*/musiker-websites.de"
-draft: true
+draft: false
 ---
 
-Id dolorem doloremque qui. Rerum laborum consectetur molestiae quia atque dolore vero. Vel eos voluptatum sit consectetur. Molestias saepe exercitationem soluta nostrum est dolores a. Pariatur molestiae non. Blanditiis et itaque totam eum omnis in harum.
+**Musiker Websites** war ein kurzzeitiges Zuhause für mein Angebot als Webdesigner - wie der Name schon sagt mit Ausrichtung auf Musiker. Diese Webseite musste ich kurz nach Veröffentlichung aus Zeitgründen auch schon wieder einstellen.
 
-Visit [musikwer-websites.de](https://web.archive.org/web/20151001000000*/musiker-websites.de) (WaybackMachine)
+<dl>
+  <dt>Veröffentl.</dt><dd>10/2009</dd>
+  <dt>Status</dt><dd>Offline</dd>
+  <dt>Technologien</dt><dd>HTML, CSS</dd>
+</dl>

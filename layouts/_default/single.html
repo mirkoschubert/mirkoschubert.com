@@ -7,6 +7,9 @@
   <header class="single">
     <h1>{{ .Title }}</h1>
   </header>
+  {{ if eq .Type "music" }}
+    MUSIC PLAYER
+  {{ end }}
   {{ .Content }}
 
   <ul class="single-nav">

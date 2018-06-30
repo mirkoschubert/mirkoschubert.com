@@ -1,7 +1,7 @@
 ---
 title: "Meine Artikel"
 date: 2018-03-21T19:49:16+01:00
-draft: true
+draft: false
 #slug: artikel
 url: /artikel/
 menu:

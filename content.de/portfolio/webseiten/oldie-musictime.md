@@ -1,18 +1,22 @@
 ---
 title: "oldie-musictime.de"
 author: "mirko"
-date: 2010-08-16T19:49:16+01:00
+date: 2009-10-16T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "http://www.oldie-musictime.de/"
 images:
 - "/images/websites/oldie-musictime-x2.jpg"
 - "/images/websites/oldie-musictime.jpg"
-draft: true
+draft: false
 ---
 
 ![Screenshot](/images/websites/oldie-musictime-x2.jpg)
 
-Id dolorem doloremque qui. Rerum laborum consectetur molestiae quia atque dolore vero. Vel eos voluptatum sit consectetur. Molestias saepe exercitationem soluta nostrum est dolores a. Pariatur molestiae non. Blanditiis et itaque totam eum omnis in harum.
+**Oldie Musictime** ist ein Auftragswerk für einen Cottbuser Musiker, der als Alleinunterhalter oder manchmal auch zu zweit in der Umgebung spielt. Die Webseite ist kurz vor meinem Umzug nach Hamburg entstanden und hat sich seitdem nicht mehr verändert.
 
-Visit [oldie-musictime.de](http://www.oldie-musictime.de/)
+<dl>
+  <dt>Veröffentl.</dt><dd>10/2009</dd>
+  <dt>Status</dt><dd>Online</dd>
+  <dt>Technologien</dt><dd>HTML, CSS, JavaScript, PHP</dd>
+</dl>

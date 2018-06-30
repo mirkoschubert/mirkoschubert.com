@@ -1,13 +1,19 @@
 ---
 title: "lyrissimo.de"
 author: "mirko"
-date: 2013-05-29T19:49:16+01:00
+date: 2009-10-29T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/*/lyrissimo.de"
-draft: true
+draft: false
 ---
 
-Id dolorem doloremque qui. Rerum laborum consectetur molestiae quia atque dolore vero. Vel eos voluptatum sit consectetur. Molestias saepe exercitationem soluta nostrum est dolores a. Pariatur molestiae non. Blanditiis et itaque totam eum omnis in harum.
+In meiner Jugend befasste ich mich unter anderem mit Lyrik, schrieb zahlreiche Gedichte sowie Mini-Kurzgeschichten und gab gelegentlich Lesungen. Nachdem ich meine Lyrik jahrelang auf [kalave.de](/portfolio/webseiten/kalave) und [mirkoschubert.de](/portfolio/webseiten/mirkoschubert) veröffentlichte, gab ich ihnen auf **Lyrissimo** eine neue Heimat.
 
-Visit [lyrissimo.de](https://web.archive.org/web/*/lyrissimo.de) (WaybackMachine)
+Inzwischen haben meine Werke in meinem Hauptblog [flussabwaerts.de](/portfolio/webseiten/flussabwaerts) ein neues zu Hause gefunden. Leider finde ich kaum noch Zeit und Muße dazu, neue Gedichte zu verfassen.
+
+<dl>
+  <dt>Veröffentl.</dt><dd>10/2009</dd>
+  <dt>Status</dt><dd>Offline</dd>
+  <dt>Technologien</dt><dd>WordPress (CMS)</dd>
+</dl>

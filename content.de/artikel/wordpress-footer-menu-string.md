@@ -9,7 +9,7 @@ type: "article"
 images:
   - "/images/sunset.jpg"
 external: false
-draft: true
+draft: false
 ---
 
 Ob Impressum, Datenschutzerklärung oder Mediadaten — ein Footer-Menü ist auf vielen Webseiten obsolet. Doch WordPress macht es uns leider nicht leicht, denn die übliche Funktion gibt das Menü statt als String mit Trennern als Liste aus. Eine kleine eigene Funktion schafft hier aber schnell Abhilfe.

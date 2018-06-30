@@ -5,9 +5,13 @@ date: 2018-05-01T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://mirkoschubert.com"
-draft: true
+draft: false
 ---
 
-Id dolorem doloremque qui. Rerum laborum consectetur molestiae quia atque dolore vero. Vel eos voluptatum sit consectetur. Molestias saepe exercitationem soluta nostrum est dolores a. Pariatur molestiae non. Blanditiis et itaque totam eum omnis in harum.
+Zum 15-jährigen Bestehen meiner Webseite [mirkoschubert.de](/portfolio/webseiten/mirkoschubert) und da ich in dieser neuen Version auch erstmals meine Open Source Software-Projekte vorstelle, die auch englischsprachige Beschreibungen benötigen, stelle ich nun auch eine englische Version dieser Webseite meinen Besuchern zur Verfügung.
 
-Visit [mirkoschubert.com](https://mirkoschubert.com)
+<dl>
+  <dt>Veröffentl.</dt><dd>05/2018</dd>
+  <dt>Status</dt><dd>Online</dd>
+  <dt>Technologien</dt><dd>HTML, CSS, JavaScript, Go (Hugo Static Site Generator)</dd>
+</dl>
