@@ -18,13 +18,11 @@ languages:
     permalinks:
       articles: '/artikel/:title'
     weight: 2
-theme: after-dark
+theme: oldterm
 related_content_limit: 5
 disableKinds:
   - taxonomy
   - taxonomyTerm
-ignoreFiles:
-  - static/assets/sass/*
 blackfriday:
   hrefTargetBlank: true
   fractions: false

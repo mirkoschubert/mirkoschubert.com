@@ -10,7 +10,7 @@ html
 
 
 body
-  background-color: $background
+  background: $background
   color: $text-default
   font-family: "Hack", "Menlo", "Courier New", monospace
   font-size: 1rem
@@ -51,20 +51,20 @@ a
 
   &:hover
     background-color: $link
-    color: $background
+    color: $contrast
 
   &[itemprop="url"]
     color: $link
 
     &:hover
-      color: $background
+      color: $contrast
 
 a[href*="://"]::after, a[rel*="external"]
   color: $external
   content: ' &>'
 
 a[href*="://"]:hover::after
-  color: $background
+  color: $contrast
 
 blockquote cite
   display: block
@@ -109,12 +109,13 @@ dl
 
   dd
     color: $list-default
+    margin-bottom: 1em
     margin-left: 160px
 
-    &:after
+    /* &:after
       clear: both
       content: ''
-      display: block
+      display: block */
 
 table
   border-collapse: collapse
@@ -201,7 +202,7 @@ iframe
 
       &:hover
         background-color: $headline
-        color: $background
+        color: $contrast
 
       &::after
         content: ''

@@ -1,0 +1,46 @@
+name: "OldTerm"
+license: "MIT"
+licenselink: "https://github.com/mirkoschubert/oldterm/blob/master/LICENSE"
+description: "A retro dark theme for Hugo."
+homepage: "https://mirkoschubert.de"
+tags:
+  - minimalist
+  - responsive
+  - technical
+  - accessible
+  - terminal
+  - custom themes
+  - simple
+  - dark
+
+features:
+  - Mobile-optimized
+  - SEO-optimized
+  - Responsive Design
+  - Flexbox Layouts
+  - Google Analytics
+  - Disqus
+  - BPG Image Support
+  - Lazyloading
+  - OpenGraph
+  - Schema Structured Data
+  - Pagination
+  - Reading time
+  - Related content
+  - Modification dating
+  - Author byline
+  - Word Count
+  - Related Posts
+  - Section Menu
+  - Block Templates
+  - Table of Contents
+  - Custom Shortcodes
+  - Keyboard Accessibility
+  - Inclusive Design
+  - Theme Variants
+
+min_version: 0.46
+
+author:
+  name: "Mirko Schubert"
+  homepage: "https://mirkoschubert.de"

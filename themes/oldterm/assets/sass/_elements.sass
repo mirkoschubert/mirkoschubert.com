@@ -18,14 +18,14 @@ article [itemprop='description']
 
     a:hover, &.active > a
       background-color: $fm-highlight
-      color: $background
+      color: $contrast
 
     a[href*="//"] > span.title::after
       color: $fm-external
       content: '&>'
 
     a:hover > span, a:hover > span.title::after, &.active > a > span, &.active > a > span.title::after
-      color: $background
+      color: $contrast
 
     .key
       color: $fm-key
@@ -124,10 +124,10 @@ article [itemprop='description']
 
 // ALERT
 .alert
-  border: 1px solid #ccc
-  color: #ccc
+  border: 1px solid $green
+  color: $green
   margin-bottom: 1.75rem
-  padding: 1rem
+  padding: 1.5rem
 
   .loading
     margin-bottom: -5px
@@ -184,3 +184,8 @@ article [itemprop='description']
   margin: 0 0.5rem
   width: 20px
 
+.hack
+  .alert
+    margin-bottom: 1.75rem
+    padding: 1.5rem
+    

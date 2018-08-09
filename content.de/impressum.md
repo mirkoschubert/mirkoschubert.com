@@ -14,47 +14,50 @@ menu:
 
 Dieses Impressum gilt für:
 
-- MIRKOSCHUBERT.DE
-- MIRKOSCHUBERT.COM
-- DIGITALER-MINIMALISMUS.DE
-- FLUSSABWAERTS.DE
-- MINIMALISMUS-TIPPS.DE
-- TWITTER
-- 500PX
+- [mirkoschubert.de](https://mirkoschubert.de/)
+- [mirkoschubert.com](https://mirkoschubert.com/)
+- [digitaler-minimalismus.de](https://digitaler-minimalismus.de/)
+- [flussabwaerts.de](https://flussabwaerts.de/)
+- [minimalismus-tipps.de](https://minimalismus-tipps.de/)
+- [Twitter](https://twitter.com/mirkoschubert)
+- [500px](https://500px.com/mirkoschubert)
 
 Angaben gemäß §5 TMG:
 
-**Mirko Schubert**
-Anzengruberstr. 28
+**Mirko Schubert**<br />
+Anzengruberstr. 28<br />
 21079 Hamburg
 
 ### Kontakt
 
 Tel.: +49 (0) 162 5173878<br />
 Fax: +49 (0) 3222 3359121<br />
-E-Mail: office@mirkoschubert.de
+E-Mail: [office@mirkoschubert.de](mailto:office@mirkoschubert.de)
+
+Du kannst E-Mails an mich auch mit PGP verschlüsseln.<br />
+Fingerprint: **0E47 02A9 E550 6C4D 35CD 3523 1411 0F3D 8B09 7056**
 
 Kleingewerbe nach §19 UStG
 
-### Verantwortlich für den Inhalt nach §55 Abs. 2 RStV
+### Verantwortlich für den Inhalt nach Par. 55 Abs. 2 RStV
 
 Mirko Schubert (Adresse siehe oben)
 
 ### Quellenangaben für die verwendeten Bilder & Grafiken
 
-Alle Fotos, wenn nicht anders gekennzeichnet, stammen von PIXABAY.COM und sind nach CREATIVE COMMONS ZERO (CC0) lizenziert.
+Alle Fotos, wenn nicht anders gekennzeichnet, stammen von [pixabay.com](https://pixabay.com/) und sind nach [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/deed.en) (CC0) lizenziert.
 
-Das Favicon stammt von SMARTLINE aus der Grafiken-Datenbank FLATICON.COM und ist nach CREATIVE COMMONS BY 3.0 lizenziert.
+Das Favicon stammt von [Smartline](https://www.flaticon.com/authors/smartline) aus der Grafiken-Datenbank [flaticon.com](https://www.flaticon.com/) und ist nach [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/) lizenziert.
 
-Der Urheber der Bilder aus der Kategorie Fotografie/ Portfolio ist Mirko Schubert. Seine Arbeit ist unter CREATIVE COMMONS BY-NC-SA 4.0 lizenziert.
+Der Urheber der Bilder aus der Kategorie Fotografie/ Portfolio ist Mirko Schubert. Seine Arbeit ist unter [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lizenziert.
 
 ### Grafikdesign
 
-Das Urheberrecht für das Grafikdesign von mirkoschubert.de und mirkoschubert.com liegt bei Mirko Schubert. Es ist entfernt mit dem Hugo Template AFTER DARK von JOSH HABDAS verwandt.
+Das Urheberrecht für das Grafikdesign von **mirkoschubert.de** und **mirkoschubert.com** liegt bei Mirko Schubert. Es ist entfernt mit dem Hugo Template [After Dark](https://themes.gohugo.io/after-dark/) von [Josh Habdas](https://habd.as/) verwandt.
 
 ### Amazon Partnerprogramm
 
-Mirko Schubert ist Teilnehmer des Partnerprogramms von Amazon EU, das zur Bereitstellung eines Mediums für Websites konzipiert wurde, mittels dessen durch die Platzierung von Werbeanzeigen und Links zu Amazon.de Werbekostenerstattung verdient werden kann.
+Als Amazon-Partner verdiene ich an qualifizierten Käufen.
 
 ### Urheberschutz
 
