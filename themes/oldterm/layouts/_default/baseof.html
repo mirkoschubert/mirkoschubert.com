@@ -58,8 +58,8 @@
         <!-- {{ partial "powered-by.html" . }} -->
       {{ end }}
     </footer>
-    {{ if eq .Type "music" }}<script src="{{ "/assets/js/aplayer.min.js" | relURL }}"></script>{{ end }}
-    <script src="/assets/js/typewriter.js"></script>
-    <script src="/assets/js/app.js"></script>
+    {{ if eq .Type "music" }}<script src="{{ .Site.BaseURL }}assets/js/aplayer.min.js"></script>{{ end }}
+    <script src="{{ .Site.BaseURL }}assets/js/typewriter.js"></script>
+    <script src="{{ .Site.BaseURL }}assets/js/app.js"></script>
   </body>
 </html>

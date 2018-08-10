@@ -8,7 +8,8 @@ publishdate: 2014-04-29T17:26:06+01:00
 type: "article"
 images:
   - "/images/sunset.jpg"
-external: false
+urls:
+  back: "/artikel/"
 draft: false
 ---
 

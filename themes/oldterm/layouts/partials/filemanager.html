@@ -16,9 +16,13 @@
 
   {{ $key := cond (ge $id 9) 0 (add $id 1) }}
 
-    <!-- {{ printf "%#v" .URL }} -->
+    <!--{{ printf "%#v" .Type }}-->
     <li>
-      <a accesskey="{{ $key }}" href="{{ .URL }}" {{ if .Params.external }}referrerpolicy="no-referrer" rel="noreferrer noopener" target="_blank"{{ end }}>
+      {{ if (eq .Type "link") }}
+      <a accesskey="{{ $key }}" href="{{ .Params.goto }}" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_blank">
+      {{ else }}
+      <a accesskey="{{ $key }}" href="{{ .URL }}">
+      {{ end }}
         <span class="key">{{ $key }}</span>
         <span class="author">{{ .Params.author }}</span>
         <span class="rdtime">{{ if or (.Params.external) (.Params.directory)  }}--{{ else }}{{ .ReadingTime }}m{{ end }}</span>
