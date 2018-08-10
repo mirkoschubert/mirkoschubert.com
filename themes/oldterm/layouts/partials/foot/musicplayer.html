@@ -1,0 +1,18 @@
+{{ if ne .Params.music nil }}
+<script type="text/javascript">
+  var ap1 = new APlayer({
+    container: document.getElementById('player1'),
+    theme: '#57d785',
+    audio: [
+      {{ range $id, $entry := .Params.music }}
+      {
+        name: {{ $entry.title }},
+        artist: {{ if ne $entry.artist nil }}{{ $entry.artist }}{{ else }}"Mirko Schubert"{{ end }},
+        url: {{ printf "%s" $entry.url }},
+        cover: {{ if ne $entry.cover nil }}{{ $entry.cover }}{{ else }}""{{ end }}
+      }{{ if lt (add $id 1) (len $entry) }},{{ end }}
+      {{ end }}
+    ]
+  });
+</script>
+{{ end }}

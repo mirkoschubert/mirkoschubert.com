@@ -1,0 +1,76 @@
+.aplayer
+  background: transparent
+  border: 2px solid $green
+  font-family: $body-font
+  margin: 0
+  padding: 10px
+
+  .aplayer-info
+
+    .aplayer-music .aplayer-title
+      color: $yellow
+
+    .aplayer-music .aplayer-author
+      color: $light-yellow
+      font-size: 14px
+
+    .aplayer-controller
+
+      .aplayer-bar-wrap
+
+        .aplayer-bar
+          background: $light-black
+
+          .aplayer-loaded
+            background: $light-green
+
+          .aplayer-played
+            background: $green
+
+      .aplayer-time
+        color: $green
+
+        .aplayer-icon
+          
+          path
+            fill: $light-green
+
+          &:hover path
+            fill: $green
+
+  &.aplayer-withlist
+
+    .aplayer-info
+      border-bottom: 0
+
+    .aplayer-list
+      
+      ol
+        margin-top: 10px
+
+      ol li
+        font-size: 14px
+        border-top: 0
+
+        &:hover
+          background-color: $light-green
+          color: $contrast
+
+          .aplayer-list-cur, .aplayer-list-index, .aplayer-list-title, .aplayer-list-author
+            color: $contrast
+
+        .aplayer-list-index
+          color: $light-yellow
+
+        .aplayer-list-cur, .aplayer-list-title
+          color: $green
+
+        .aplayer-list-author
+          color: $light-green
+
+        &.aplayer-list-light
+          background: $light-green
+          color: $contrast
+
+          .aplayer-list-cur, .aplayer-list-index, .aplayer-list-title, .aplayer-list-author
+            color: $contrast

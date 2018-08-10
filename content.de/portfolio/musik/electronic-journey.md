@@ -5,6 +5,11 @@ date: 2010-03-21T19:49:16+01:00
 urls:
   back: "/portfolio/musik/"
 type: music
+music: 
+  - title: "Indian Camouflage"
+    url: "/music/electronic-journey/01-indian-camouflage.mp3"
+  - title: "Mediterranean Sea"
+    url: "/music/electronic-journey/02-mediterranean-sea.mp3"
 draft: false
 ---
 

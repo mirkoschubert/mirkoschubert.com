@@ -34,6 +34,8 @@
     <!-- CSS DECLARATIONS -->
     {{ partial "head/css.html" . }}
 
+    
+
     <script src="{{ .Site.BaseURL }}assets/js/baffle.min.js"></script>
     {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}<!-- http://regexr.com/3f9d1 -->
     {{ if ge (len $lazylist) 1 }}
@@ -58,7 +60,10 @@
         <!-- {{ partial "powered-by.html" . }} -->
       {{ end }}
     </footer>
-    {{ if eq .Type "music" }}<script src="{{ .Site.BaseURL }}assets/js/aplayer.min.js"></script>{{ end }}
+    {{ if eq .Type "music" }}
+    <script src="{{ .Site.BaseURL }}assets/js/aplayer.min.js"></script>
+    {{ partial "foot/musicplayer.html" . }}
+    {{ end }}
     <script src="{{ .Site.BaseURL }}assets/js/typewriter.js"></script>
     <script src="{{ .Site.BaseURL }}assets/js/app.js"></script>
   </body>

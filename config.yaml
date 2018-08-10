@@ -6,7 +6,7 @@ languages:
     languageName: English
     languageCode: en-us
     title: Mirko Schubert
-    slogan: Journalist ∙ Musician ∙ Photographer
+    slogan: Journalist ∙ Musician ∙ Developer
     weight: 1
   de:
     baseUrl: 'https://mirkoschubert.de'
@@ -14,7 +14,7 @@ languages:
     languageName: Deutsch
     languageCode: de-de
     title: Mirko Schubert
-    slogan: Journalist ∙ Musiker ∙ Fotograf
+    slogan: Journalist ∙ Musiker ∙ Entwickler
     permalinks:
       articles: '/artikel/:title'
     weight: 2

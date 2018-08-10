@@ -8,7 +8,9 @@
     <h1>{{ .Title }}</h1>
   </header>
   {{ if eq .Type "music" }}
-    MUSIC PLAYER
+  <div id="player1" class="aplayer">
+    No music found.
+  </div>
   {{ end }}
   {{ .Content }}
 
