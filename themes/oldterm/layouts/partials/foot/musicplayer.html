@@ -1,7 +1,9 @@
 {{ if ne .Params.music nil }}
+<script src="{{ .Site.BaseURL }}assets/js/aplayer.min.js"></script>
 <script type="text/javascript">
   var ap1 = new APlayer({
     container: document.getElementById('player1'),
+    listMaxHeight: '200px',
     theme: '#57d785',
     audio: [
       {{ range $id, $entry := .Params.music }}
@@ -9,8 +11,8 @@
         name: {{ $entry.title }},
         artist: {{ if ne $entry.artist nil }}{{ $entry.artist }}{{ else }}"Mirko Schubert"{{ end }},
         url: {{ printf "%s" $entry.url }},
-        cover: {{ if ne $entry.cover nil }}{{ $entry.cover }}{{ else }}""{{ end }}
-      }{{ if lt (add $id 1) (len $entry) }},{{ end }}
+        cover: {{ if ne $entry.cover nil }}{{ $entry.cover }}{{ else }}"/assets/img/no-cover.jpg"{{ end }}
+      },
       {{ end }}
     ]
   });

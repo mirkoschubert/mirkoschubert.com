@@ -8,6 +8,7 @@ urls:
 images:
 - "/images/websites/oldie-musictime-x2.jpg"
 - "/images/websites/oldie-musictime.jpg"
+type: website
 draft: false
 ---
 

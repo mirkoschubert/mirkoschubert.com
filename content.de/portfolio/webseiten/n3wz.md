@@ -5,6 +5,7 @@ date: 2011-06-15T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/20131206140611/http://www.n3wz.de/"
+type: website
 draft: false
 ---
 

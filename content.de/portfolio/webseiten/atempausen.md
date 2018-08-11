@@ -5,6 +5,7 @@ date: 2003-11-05T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/20040519162301/http://www.atempausen.de:80/"
+type: website
 draft: true
 ---
 

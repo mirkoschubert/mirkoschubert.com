@@ -5,6 +5,7 @@ date: 2009-10-29T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/*/lyrissimo.de"
+type: website
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2011-02-23T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "http://web.archive.org/web/20130423125131/http://www.mallorcamag.de/"
+type: website
 draft: false
 ---
 

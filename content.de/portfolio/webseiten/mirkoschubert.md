@@ -5,6 +5,7 @@ date: 2003-09-12T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "/"
+type: website
 draft: false
 ---
 

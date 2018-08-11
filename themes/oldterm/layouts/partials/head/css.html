@@ -1,4 +1,6 @@
-{{ if eq .Type "music" }}<link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/aplayer.css" />{{ end }}
+{{ if and (eq .Type "music") (ne .Params.music nil) }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/aplayer.css" />
+{{ end }}
 
 {{- $target := printf "%s/assets/css/main.css" .Lang }}
 {{- $css := resources.Get "sass/main.sass" | toCSS (dict "targetPath" $target) | minify }}

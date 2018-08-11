@@ -5,6 +5,7 @@ date: 2008-10-09T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "http://www.musiker-knowhow.de"
+type: website
 draft: false
 ---
 

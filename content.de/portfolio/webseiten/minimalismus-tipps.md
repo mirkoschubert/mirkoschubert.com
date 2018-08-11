@@ -9,6 +9,7 @@ urls:
 images:
   - "/images/websites/minimalismus-tipps-x2.jpg"
   - "/images/websites/minimalismus-tipps.jpg"
+type: website
 draft: false
 ---
 

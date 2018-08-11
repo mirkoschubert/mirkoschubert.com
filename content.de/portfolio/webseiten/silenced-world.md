@@ -5,6 +5,7 @@ date: 2009-08-28T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/20111114213052/http://www.silenced-world.de"
+type: website
 draft: false
 ---
 

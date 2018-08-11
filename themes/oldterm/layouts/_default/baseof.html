@@ -61,10 +61,8 @@
       {{ end }}
     </footer>
     {{ if eq .Type "music" }}
-    <script src="{{ .Site.BaseURL }}assets/js/aplayer.min.js"></script>
-    {{ partial "foot/musicplayer.html" . }}
+      {{ partial "foot/musicplayer.html" . }}
     {{ end }}
-    <script src="{{ .Site.BaseURL }}assets/js/typewriter.js"></script>
-    <script src="{{ .Site.BaseURL }}assets/js/app.js"></script>
+    {{ partial "foot/js.html" . }}
   </body>
 </html>

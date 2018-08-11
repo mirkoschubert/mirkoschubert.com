@@ -7,9 +7,9 @@
   <header class="single">
     <h1>{{ .Title }}</h1>
   </header>
-  {{ if eq .Type "music" }}
+  {{ if and (eq .Type "music") (ne .Params.music nil) }}
   <div id="player1" class="aplayer">
-    No music found.
+    No music available.
   </div>
   {{ end }}
   {{ .Content }}

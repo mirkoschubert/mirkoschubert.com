@@ -5,6 +5,7 @@ date: 2003-05-24T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "https://web.archive.org/web/20030716015437/http://www.kalave.de:80/"
+type: website
 draft: false
 ---
 

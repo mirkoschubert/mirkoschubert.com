@@ -8,6 +8,7 @@ urls:
 images:
   - "/images/websites/flussabwaerts-x2.jpg"
   - "/images/websites/flussabwaerts.jpg"
+type: website
 draft: false
 ---
 

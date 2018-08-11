@@ -5,6 +5,7 @@ date: 2003-12-16T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "http://web.archive.org/web/20040614112247/http://engelsaugen.kalave.de:80/"
+type: website
 draft: false
 ---
 

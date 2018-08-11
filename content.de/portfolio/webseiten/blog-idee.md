@@ -5,6 +5,7 @@ date: 2011-02-13T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "http://web.archive.org/web/20110213042356/http://www.blog-idee.de:80/"
+type: website
 draft: false
 ---
 

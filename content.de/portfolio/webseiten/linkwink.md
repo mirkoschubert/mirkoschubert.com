@@ -5,6 +5,7 @@ date: 2010-03-21T19:49:16+01:00
 urls:
   back: "/portfolio/webseiten/"
   visit: "http://web.archive.org/web/*/http://www.linkwink.de"
+type: website
 draft: false
 ---
 

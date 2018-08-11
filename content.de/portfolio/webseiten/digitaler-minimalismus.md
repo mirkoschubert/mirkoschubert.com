@@ -8,6 +8,7 @@ urls:
 images:
   - "/images/websites/digitaler-minimalismus-x2.jpg"
   - "/images/websites/digitaler-minimalismus.jpg"
+type: website
 draft: false
 ---
 
