@@ -1,5 +1,4 @@
 @import theme.oldterm
-@import variables
 @import mixins
 
 @import fonts
@@ -42,18 +41,19 @@ footer time[datetime$='M']
 .pull-right
   float: right
 
-.hack
+
+.site-header
+  margin: 2rem 0 4rem
+  text-align: center
+
+.site-main
+  min-height: 45vh
+
   header
-    margin: 2rem 0 4rem
-    text-align: center
-  
-  main
-    min-height: 45vh
+    margin: 2rem 0
+    text-align: left
 
-    header
-      margin: 2rem 0
-      text-align: left
-
-  footer
-    margin-bottom: 2rem
-    text-align: center
+.site-footer
+  margin-bottom: 2rem
+  margin-top: 4rem
+  text-align: center

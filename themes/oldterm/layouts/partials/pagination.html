@@ -1,14 +1,32 @@
-<nav class="pagination">
-  <p>
-    {{if .Paginator.HasPrev }}
-    <a accesskey="ArrowLeft" href="{{ .Paginator.Prev.URL }}">&laquo; Previous</a> | {{ end }}
-    {{ if (eq .Paginator.TotalPages 0) }}
-    <span>Page {{ .Paginator.PageNumber }} of 1</span>
-    {{ else }}
-    <span>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
-    {{ end }}
-    {{ if .Paginator.HasNext }} |
-    <a accesskey="ArrowRight" href="{{ .Paginator.Next.URL }}">Next &raquo;</a>
-    {{ end }}
-  </p>
+<nav class="pagination container">
+  <table>
+    <tbody>
+      <tr>
+        <td class="back">
+          {{ if and .IsPage .Params.urls.back }}
+            <a accesskey="." href="{{ .Params.urls.back }}">{{ i18n "back" }}</a>
+          {{ end }}
+        </td>
+        <td class="pages">
+          {{ if not .IsPage }}
+            {{if .Paginator.HasPrev }}
+              <a accesskey="ArrowLeft" href="{{ .Paginator.Prev.URL }}">&laquo; Previous</a> | {{ end }}
+            {{ if (eq .Paginator.TotalPages 0) }}
+              <span>Page {{ .Paginator.PageNumber }} of 1</span>
+            {{ else }}
+              <span>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+            {{ end }}
+            {{ if .Paginator.HasNext }} |
+              <a accesskey="ArrowRight" href="{{ .Paginator.Next.URL }}">Next &raquo;</a>
+            {{ end }}
+          {{ end }}
+        </td>
+        <td class="visit">
+          {{ if and .IsPage .Params.urls.visit }}
+            <a accesskey="{{ i18n "visitkey" }}" href="{{ .Params.urls.visit }}" target="_blank">{{ i18n "visit" }}</a>
+          {{ end }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </nav>

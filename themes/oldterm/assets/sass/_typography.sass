@@ -66,11 +66,45 @@ a[href*="://"]::after, a[rel*="external"]
 a[href*="://"]:hover::after, li.active a[href*="://"]::after
   color: $contrast
 
+
+// INFO: Emphasis & Blockquotes 
+
+blockquote, code, em, strong
+  line-height: 20px
+
+strong
+  color: $strong
+
+blockquote, code, footer, header, h1, h2, h3, h4, h5, h6, li, ol, p, section, ul
+  float: none
+  margin: 0
+  padding: 0
+
+h1, ol, p, ul
+  margin-bottom: 20px  
+  margin-top: 20px
+
+blockquote
+  overflow: hidden
+  padding-left: 2rem
+  margin: 2rem 0
+  position: relative
+  line-height: 1.5rem
+
+  p:first-child
+    margin-top: 0
+
+  p:last-child
+    margin-bottom: 0
+
 blockquote cite
   display: block
 
   &::before
     content: '\2014'
+
+
+// INFO: (Inline) Code & Syntax Highlighting
 
 pre
   background-color: #fff
@@ -99,6 +133,9 @@ code[class*='language-'], pre[class*='language-'], pre code
   margin: 1.75rem 0
   text-shadow: none
 
+
+// INFO: Lists 
+
 dl
   dt
     clear: left
@@ -112,10 +149,8 @@ dl
     margin-bottom: 1em
     margin-left: 160px
 
-    /* &:after
-      clear: both
-      content: ''
-      display: block */
+
+// INFO: Tables 
 
 table
   border-collapse: collapse
@@ -137,6 +172,9 @@ table
     color: #333
     font-weight: 700
 
+
+// INFO: iFrames 
+
 iframe
   border: 0
 
@@ -154,38 +192,21 @@ iframe
     top: 0
     width: 100%
 
-// HACK
+
+// INFO: type-specific CSS 
+
+.site-main
+
+  &.flashf
+
+  &.poetry
+
+
+
+// TODO: .hack (old)
+
 .hack
-  blockquote, code, em, strong
-    line-height: 20px
   
-  blockquote, code, footer, header, h1, h2, h3, h4, h5, h6, li, ol, p, section, ul
-    float: none
-    margin: 0
-    padding: 0
-  
-  blockquote, h1, ol, p, ul
-    margin-bottom: 20px  
-    margin-top: 20px
-
-  blockquote
-    overflow: hidden
-    padding-left: 17px
-    padding-left: 2ch
-    position: relative
-
-    &:after
-      content: '>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>'
-      left: 0
-      line-height: 20px
-      position: absolute
-      top: 0
-      white-space: pre
-  
-  em:after, em:before
-    content: '*'
-    display: inline
-
   h1 + *
     margin-top: 0
 
@@ -237,23 +258,15 @@ iframe
   ol
     counter-reset: a
 
-  /* ol > li:after
-    content: counter(a) '.'
-    counter-increment: a */
-
   img
     width: 100%
 
   .readmore
     margin-bottom: 2.2em
 
-/* .hack-ones ol > li:after
-  content: '1.' */
 
 // DARK
 .dark
-  table
-    color: #ccc
 
   td, th
     border-color: #444

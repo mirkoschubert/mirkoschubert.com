@@ -16,30 +16,34 @@ nav
     margin: 0
     padding: 0 3px
 
-.menu
-  width: 100%
+  &.container
+    margin-top: 0
+    margin-bottom: 0
 
-  .menu-item
-    border-color: #616161
-    color: #616161
-    display: block
+.pagination
 
-    &.active, &:hover
-      background-color: transparent
-      border-color: #000
-      color: #000
+  &.container
+    margin-top: 20px
+  
+  table
+    margin: 0
+    padding: 0
+    color: $green
 
+    td
+      padding: 0
+      border: none
 
-.dark
-  .menu 
-    .menu-item
-      border-color: rgba(95, 95, 95, 0.78)
-      color: #ccc
+      &.back
+        text-align: left
+        width: 9rem
 
-      &.active, &:hover
-        border-color: #ccc
-        color: #fff
+      &.pages
+        text-align: center
 
-  .single-nav li
-    padding-left: 0
+      &.visit
+        text-align: right
+        width: 9rem
 
+      a
+        padding: 2px 4px

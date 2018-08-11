@@ -1,5 +1,5 @@
 {{ if ne .Site.Params.show_menu false }}
-<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+<nav class="footer-menu container" itemscope itemtype="http://schema.org/SiteNavigationElement">
   {{ $currentNode := . }} {{ range .Site.Menus.footer }}
   <!--   {{ printf "%#v" ($currentNode.IsMenuCurrent "main" . ) }} -->
 

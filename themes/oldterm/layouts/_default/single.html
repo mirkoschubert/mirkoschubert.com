@@ -12,14 +12,16 @@
     No music available.
   </div>
   {{ end }}
-  {{ .Content }}
-
-  <ul class="single-nav">
-  {{ if .Params.urls.visit }}<li><a accesskey="{{ i18n "visitkey" }}" href="{{ .Params.urls.visit }}" target="_blank">{{ i18n "visit" }}</a></li>{{ end }}
-  {{ if .Params.urls.back }}<li><a accesskey="." href="{{ .Params.urls.back }}">{{ i18n "back" }}</a></li>{{ end }}
-  </ul>
+  {{if and (ne .Params.typewriter nil) (eq .Params.typewriter true) }}
+  <div id="typewriter">
+    {{ .Content }}
+  </div>
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
 {{ end }}
 {{ define "footer" }}
+  {{ partial "pagination.html" . }}
   <hr>
   {{ partial "footer-menu.html" . }}
 <!--   {{ partial "powered-by.html" . }} -->

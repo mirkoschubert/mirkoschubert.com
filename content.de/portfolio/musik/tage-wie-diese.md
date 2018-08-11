@@ -67,4 +67,4 @@ Auf Anraten eines Musiklabels nahm ich später einige der Titel erneut auf, um e
   <dt>Download</dt><dd><a accesskey="h" href="/music/tage-wie-diese/tage-wie-diese-mirko-schubert.zip">h:Herunterladen</a> &bull; <a accesskey="z" href="https://www.paypal.me/mirkoschubert/5" title="Unterstütze mich!" target="_blank">z:Spenden&sup1;</a></dd>
 </dl>
 
-&sup1; <small>Das Albmum **Tage wie diese** ist unter [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lizenziert und kann von Dir kostenlos heruntergeladen und im Rahmen der Lizenz verwendet werden. Ich freue mich aber immer über eine kleine Zuwendung für meine Arbeit. Vielen Dank!</small>
+&sup1; <small>Das Album **Tage wie diese** ist unter [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lizenziert und kann von Dir kostenlos heruntergeladen und im Rahmen der Lizenz verwendet werden. Ich freue mich aber immer über eine kleine Zuwendung für meine Arbeit. Vielen Dank!</small>

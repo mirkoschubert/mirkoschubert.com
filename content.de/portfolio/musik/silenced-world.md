@@ -40,4 +40,4 @@ Nachdem ich 2010 aus der GEMA ausgetreten war und mich dazu entschieden habe, vi
   <dt>Download</dt><dd><a accesskey="h" href="/music/silenced-world/silenced-world-mirko-schubert.zip">h:Herunterladen</a> &bull; <a accesskey="z" href="https://www.paypal.me/mirkoschubert/5" title="Unterstütze mich!" target="_blank">z:Spenden&sup1;</a></dd>
 </dl>
 
-&sup1; <small>Das Albmum **Silenced World** ist unter [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lizenziert und kann von Dir kostenlos heruntergeladen und im Rahmen der Lizenz verwendet werden. Ich freue mich aber immer über eine kleine Zuwendung für meine Arbeit. Vielen Dank!</small>
+&sup1; <small>Das Album **Silenced World** ist unter [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lizenziert und kann von Dir kostenlos heruntergeladen und im Rahmen der Lizenz verwendet werden. Ich freue mich aber immer über eine kleine Zuwendung für meine Arbeit. Vielen Dank!</small>
