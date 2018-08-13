@@ -25,6 +25,8 @@ function prepareAccessKeys() {
 
 (function(w, d) {
 
+  // INFO: Keyboard Control 
+
   var bindings = prepareAccessKeys();
   console.log(bindings);
 
@@ -64,6 +66,30 @@ function prepareAccessKeys() {
           if (b.external) window.open(b.href); else window.location.pathname = b.href;
         }
       });
+    }
+  });
+
+  // INFO: Retina Images 
+
+  var mainContent = document.getElementsByClassName('site-main')[0];
+  var images = mainContent.getElementsByTagName('img');
+  console.log(images);
+
+  Array.from(images).forEach(function(image) {
+    console.log(image);
+    var path = image.src.substr(0, image.src.lastIndexOf('/') + 1);
+    var file = image.src.substr(image.src.lastIndexOf('/') + 1, image.src.lastIndexOf('.') - image.src.lastIndexOf('/') - 1);
+    var extension = image.src.substring(image.src.lastIndexOf('.'));
+    console.log(path, file, extension);
+
+    if (window.devicePixelRatio == 2) {
+      file = (file.indexOf('@2x') === -1) ? file + '@2x' : file;
+      console.log(path + file + extension);
+      image.setAttribute('src', path + file + extension);
+    } else {
+      file = (file.indexOf('@2x') !== -1) ? file.substr(0, file.indexOf('@2x')) : file;
+      console.log(path + file + extension);
+      image.setAttribute('src', path + file + extension);
     }
   });
 

@@ -6,13 +6,13 @@ urls:
   back: "/portfolio/webseiten/"
   visit: "http://www.oldie-musictime.de/"
 images:
-- "/images/websites/oldie-musictime-x2.jpg"
-- "/images/websites/oldie-musictime.jpg"
+  - "/images/websites/oldie-musictime.jpg"
+  - "/images/websites/oldie-musictime@2x.jpg"
 type: website
 draft: false
 ---
 
-![Screenshot](/images/websites/oldie-musictime-x2.jpg)
+![Screenshot](/images/websites/oldie-musictime.jpg)
 
 **Oldie Musictime** ist ein Auftragswerk für einen Cottbuser Musiker, der als Alleinunterhalter oder manchmal auch zu zweit in der Umgebung spielt. Die Webseite ist kurz vor meinem Umzug nach Hamburg entstanden und hat sich seitdem nicht mehr verändert.
 

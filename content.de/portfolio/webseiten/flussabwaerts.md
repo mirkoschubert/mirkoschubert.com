@@ -6,13 +6,13 @@ urls:
   back: "/portfolio/webseiten/"
   visit: "https://flussabwaerts.de"
 images:
-  - "/images/websites/flussabwaerts-x2.jpg"
   - "/images/websites/flussabwaerts.jpg"
+  - "/images/websites/flussabwaerts@2x.jpg"
 type: website
 draft: false
 ---
 
-![Screenshot](/images/websites/flussabwaerts-x2.jpg)
+![Screenshot](/images/websites/flussabwaerts.jpg)
 
 Auch wenn es nicht so aussieht, ist **Flussabwärts** einer meiner langlebigsten Blogs. Er hat bereits eine bewegte Geschichte hinter sich:
 

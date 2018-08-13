@@ -7,12 +7,12 @@ urls:
   visit: "https://www.techfacts.de"
 images:
   - "/images/journalism/techfacts.jpg"
-  - "/images/journalism/techfacts-x2.jpg"
+  - "/images/journalism/techfacts@2x.jpg"
 type: journalism
 draft: false
 ---
 
-![Screenshot](/images/journalism/techfacts-x2.jpg)
+![Screenshot](/images/journalism/techfacts.jpg)
 
 Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
 

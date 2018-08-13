@@ -7,12 +7,12 @@ urls:
   visit: "https://www.4phones.de"
 images:
   - "/images/journalism/4phones.jpg"
-  - "/images/journalism/4phones-x2.jpg"
+  - "/images/journalism/4phones@2x.jpg"
 type: journalism
 draft: false
 ---
 
-![Screenshot](/images/journalism/4phones-x2.jpg)
+![Screenshot](/images/journalism/4phones.jpg)
 
 Für **4phones.de** schrieb ich etwa anderthalb Jahre die täglichen News zu neuen Gerüchten und Produkten aus der Smartphone-Welt. Gelegentlich testete ich auch verschiedene Smartphones und veröffentlichte ausführliche Rezensionen.
 

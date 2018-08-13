@@ -7,13 +7,13 @@ urls:
   back: "/portfolio/webseiten/"
   visit: "https://minimalismus-tipps.de"
 images:
-  - "/images/websites/minimalismus-tipps-x2.jpg"
   - "/images/websites/minimalismus-tipps.jpg"
+  - "/images/websites/minimalismus-tipps@2x.jpg"
 type: website
 draft: false
 ---
 
-![Screenshot](/images/websites/minimalismus-tipps-x2.jpg)
+![Screenshot](/images/websites/minimalismus-tipps.jpg)
 
 **Minimalismus Tipps** wurde von [Gabi Raeggel](https://achtsame-lebenskunst.de) im Juni 2015 eröffnet und umfasst ein Verzeichnis, in dem Einsteiger wie Fortgeschrittene viele Links zu zahlreichen Bloggern, die sich mit dem Thema »Minimalismus« beschäftigen, nachschlagen können.
 

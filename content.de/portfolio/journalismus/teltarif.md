@@ -7,12 +7,12 @@ urls:
   visit: "https://www.teltarif.de"
 images:
   - "/images/journalism/teltarif.jpg"
-  - "/images/journalism/teltarif-x2.jpg"
+  - "/images/journalism/teltarif@2x.jpg"
 type: journalism
 draft: false
 ---
 
-![Screenshot](/images/journalism/teltarif-x2.jpg)
+![Screenshot](/images/journalism/teltarif.jpg)
 
 Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
 
