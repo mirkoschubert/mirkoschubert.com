@@ -31,7 +31,7 @@ Das Projekt **Silenced World** ist mir eine Herzensangelegenheit, die ich lange 
 
 So produzierte ich viele Songs mit mir als Pianist im Fokus und trat gelegentlich im Halbplayback damit auf. Später organisierte ich eine Band, mit der ich mein Projekt auch ohne Playback auf die Bühne bringen konnte. Leider kam dann mein Umzug nach Hamburg dazwischen.
 
-Nachdem ich 2010 aus der GEMA ausgetreten war und mich dazu entschieden habe, viele meine Musik unter Creative-Commons-Lizenz zu stellen, habe ich einige Titel zuerst auf [mp3.de](https://www.mp3.de), später auf [Soundcloud](https://soundcloud.com/mirkoschubert/sets/silenced-world-1) veröffentlicht. Mit meiner neuen Webseite stelle ich Dir nun weitere Titel zur Verfügung.
+Nachdem ich 2010 aus der GEMA ausgetreten bin und mich dazu entschieden habe, einen Großteil meiner Musik unter Creative-Commons-Lizenz zu stellen, habe ich einige Titel zuerst auf [mp3.de](https://www.mp3.de), später auf [Soundcloud](https://soundcloud.com/mirkoschubert/sets/silenced-world-1) veröffentlicht. Mit meiner neuen Webseite stelle ich Dir nun weitere Titel zur Verfügung.
 
 <dl>
   <dt>Veröffentl.</dt><dd>2012</dd>

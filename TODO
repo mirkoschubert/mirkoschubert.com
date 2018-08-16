@@ -1,0 +1,19 @@
+Theme:
+  ☐ Migrate all `hack` and `dark` elements in sass
+  ☐ Create a proper `index` layout
+  ☐ Format Code Highlighter (and migrate from Gist)
+  ☐ Find a solution for sub headings
+  ☐ [FUTURE] Create gallery partial for `photography` section
+  ☐ Find a good solution in `contact` section
+  ☐ Find a better solution for typewriter effect
+Content:
+  ☐ Plan content for home page
+  ☐ Complete texts and images in `journalism` section
+  ☐ Complete texts and images in `software` section
+  ☐ Complete images in `websites` section
+  ☐ Integrate long version of `privacy` statement and switch between both
+Ideas:
+  ☐ Think about an `about` section
+  ☐ Contact section: Form like a terminal prompt
+Bugs:
+  ☐ 
