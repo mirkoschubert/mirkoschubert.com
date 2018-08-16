@@ -1,11 +1,12 @@
 Theme:
   ☐ Migrate all `hack` and `dark` elements in sass
   ☐ Create a proper `index` layout
-  ☐ Format Code Highlighter (and migrate from Gist)
-  ☐ Find a solution for sub headings
+  ✔ Format Code Highlighter (and migrate from Gist) @done(18-08-16 14:12)
+  ✔ Find a solution for sub headings @done(18-08-16 14:12)
   ☐ [FUTURE] Create gallery partial for `photography` section
   ☐ Find a good solution in `contact` section
   ☐ Find a better solution for typewriter effect
+  ☐ Create useful shortcodes
 Content:
   ☐ Plan content for home page
   ☐ Complete texts and images in `journalism` section

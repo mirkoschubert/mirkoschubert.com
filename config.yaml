@@ -23,6 +23,10 @@ related_content_limit: 5
 disableKinds:
   - taxonomy
   - taxonomyTerm
+pygmentsOptions: 'linenos=table,nowrap=true'
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true
 blackfriday:
   hrefTargetBlank: true
   fractions: false

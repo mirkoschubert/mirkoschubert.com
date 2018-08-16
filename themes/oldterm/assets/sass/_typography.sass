@@ -22,25 +22,56 @@ body
 
 h1, h2, h3, h4, h5, h6
   display: inline
-  font-family: "Yukari mobile", "Menlo", "Courier New", monospace // Teleindicadores, Perfograma, Edit Undo, Yukari mobile
   font-weight: 400
   line-height: 1.3rem
   margin: 0
   padding: 0
   position: relative
 
+h1 + *
+  margin-top: 0
+
 h1, h2
   color: $headline
+  font-family: $headline-font
   font-size: 2rem // 1.825rem
+  font-weight: normal
   text-transform: uppercase
 
 h3, h4, h5, h6
   color: $headline
-  font-size: 1.5rem
+  font-family: $subheadline-font
+  font-size: 1.125rem
+  font-weight: bold
   text-transform: uppercase
+
+h3.site-title
+  display: block
+  font-size: 2.75rem
+  margin: 0 auto
+
+  a
+    color: $headline
+    display: inline-block
+    font-family: $headline-font
+    font-weight: normal
+    margin-bottom: .625rem
+    padding: 18px
+
+    &:hover
+      background-color: $headline
+      color: $contrast
+
+    &::after
+      content: ''
+      margin-left: 0
+
 
 p
   margin: 0 0 1.75rem
+
+  &.site-slogan
+    margin: 0 0 1.5em 0
 
 a
   color: $link
@@ -48,6 +79,9 @@ a
   padding: 0 3px    
   text-decoration: none
   text-transform: uppercase
+
+  strong
+    color: $link
 
   &:hover
     background-color: $link
@@ -67,13 +101,34 @@ a[href*="://"]:hover::after, li.active a[href*="://"]::after
   color: $contrast
 
 
-// INFO: Emphasis & Blockquotes 
+// INFO: Emphasis 
 
 blockquote, code, em, strong
   line-height: 20px
 
 strong
   color: $strong
+
+small
+  font-size: 14px
+
+hr
+  border: 0
+  border-top: 1px dashed $text-default
+  height: 1px
+  margin: 1em 0
+  overflow: hidden
+  position: relative
+  width: 100%
+
+img
+  width: 100%
+
+.readmore
+  margin-bottom: 2.2em
+
+
+// INFO: Blockquotes 
 
 blockquote, code, footer, header, h1, h2, h3, h4, h5, h6, li, ol, p, section, ul
   float: none
@@ -107,9 +162,11 @@ blockquote cite
 // INFO: (Inline) Code & Syntax Highlighting
 
 pre
-  background-color: #fff
-  border: 1px solid #ccc
+  background-color: $dark-gray
+  border: none
+  font-size: 14px
   margin: 1.75rem 0
+  padding: 0
   overflow: auto
   padding: 2rem
 
@@ -120,21 +177,36 @@ pre
   code:after, code:before
     content: ''
 
-code
-  font-weight: 700
-
-  &:after, &:before
-    content: '`'
-    display: inline
-
+  code
+    font-family: $body-font
+    font-size: 14px
+    font-weight: normal
+    padding: 0
 
 code[class*='language-'], pre[class*='language-'], pre code
-  font-weight: 100
+  font-weight: normal
   margin: 1.75rem 0
   text-shadow: none
 
+code // inline code
+  font-size: 14px
+  padding: .2em .4em
+  background-color: $black
+  font-family: $body-font
+
 
 // INFO: Lists 
+
+li
+  display: block
+  padding-left: 20px
+  position: relative
+
+  ul
+    margin: 0
+
+ol
+  counter-reset: a
 
 dl
   dt
@@ -172,6 +244,9 @@ table
     color: #333
     font-weight: 700
 
+  pre
+    margin: 0
+    padding: 0
 
 // INFO: iFrames 
 
@@ -200,98 +275,4 @@ iframe
   &.flashf
 
   &.poetry
-
-
-
-// TODO: .hack (old)
-
-.hack
-  
-  h1 + *
-    margin-top: 0
-
-  h3.site-title
-    display: block
-    font-size: 2.75rem
-    margin: 0 auto
-
-    a
-      color: $headline
-      display: inline-block
-      margin-bottom: .625rem
-      padding: 18px
-
-      &:hover
-        background-color: $headline
-        color: $contrast
-
-      &::after
-        content: ''
-        margin-left: 0
-  
-  p.site-slogan
-    margin: 0 0 1.5em 0
-
-  pre
-    font-size: 17px
-
-  small
-    font-size: 14px
-
-  hr
-    border: 0
-    border-top: 1px dashed $text-default
-    height: 1px
-    margin: 1em 0
-    overflow: hidden
-    position: relative
-    width: 100%
-
-  li
-    display: block
-    padding-left: 20px
-    position: relative
-
-    ul
-      margin: 0
-
-  ol
-    counter-reset: a
-
-  img
-    width: 100%
-
-  .readmore
-    margin-bottom: 2.2em
-
-
-// DARK
-.dark
-
-  td, th
-    border-color: #444
-
-  tbody td:first-child
-    color: #fff
-  
-  pre
-    border: none
-    padding: 0
-
-    code
-      color: #00bcd4
-  
-  code, strong
-    color: #fff
-
-  code
-    font-weight: 100
-  
-  strong
-    color: inherit
-
-  p strong
-    color: $strong
-
-
 
