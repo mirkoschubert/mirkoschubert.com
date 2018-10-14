@@ -23,14 +23,14 @@ Diese Datenschutzerklärung gilt für:
 
 Sie wurde zuletzt am 23. April 2018 aktualisiert.
 
-<p class="alert">Dies ist die verständliche <strong>Kurzfassung</strong> der Datenschutzerklärung. Die ausführliche Fassung findest Du <a href="">hier</a>.</p>
+<p class="alert">Dies ist die verständliche <strong>Kurzfassung</strong> der Datenschutzerklärung. Die ausführliche Fassung findest Du <a accesskey="D" href="/datenschutz-lang/">hier</a>.</p>
 
 ### Verantwortlicher
 
-**Mirko Schubert**<br />
-Anzengruberstr. 28<br />
-21079 Hamburg<br/>
-Germany<br />
+**Mirko Schubert**
+Anzengruberstr. 28
+21079 Hamburg
+Germany
 E-Mail: [office@mirkoschubert.de](mailto:office@mirkoschubert.de)
 
 Uns liegt der Schutz von personenbezogenen Daten unserer Nutzer sehr am Herzen. Deshalb versuchen wir, keine Daten zu speichern oder auszuwerten, wenn sie nicht zwingend zur technischen oder rechtlichen Ausführung notwendig sind.
@@ -99,4 +99,4 @@ Diese Daten werden automatisch nach 14 Tagen gelöscht.</dd>
 
 Du hast das Recht zur **Auskunft** und **Bereitstellung** Deiner von uns gespeicherten Daten. Du hast das Recht zur **Vervollständigung** und **Berichtigung** Deiner Daten und kannst die unverzügliche **Löschung** verlangen. Und natürlich hast Du auch das Recht, bei der zuständigen Behörde **Beschwerde** einzureichen.
 
-<p class="alert">Dies war die verständliche <strong>Kurzfassung</strong> der Datenschutzerklärung. Die ausführliche Fassung findest Du <a href="">hier</a>.</p>
+<p class="alert">Dies war die verständliche <strong>Kurzfassung</strong> der Datenschutzerklärung. Die ausführliche Fassung findest Du <a accesskey="D" href="/datenschutz-lang/">hier</a>.</p>

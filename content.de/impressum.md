@@ -24,17 +24,17 @@ Dieses Impressum gilt für:
 
 Angaben gemäß §5 TMG:
 
-**Mirko Schubert**<br />
-Anzengruberstr. 28<br />
+**Mirko Schubert**
+Anzengruberstr. 28
 21079 Hamburg
 
 ### Kontakt
 
-Tel.: +49 (0) 162 5173878<br />
-Fax: +49 (0) 3222 3359121<br />
+Tel.: +49 (0) 162 5173878
+Fax: +49 (0) 3222 3359121
 E-Mail: [office@mirkoschubert.de](mailto:office@mirkoschubert.de)
 
-Du kannst E-Mails an mich auch mit PGP verschlüsseln.<br />
+Du kannst E-Mails an mich auch mit PGP verschlüsseln.
 Fingerprint: **0E47 02A9 E550 6C4D 35CD 3523 1411 0F3D 8B09 7056**
 
 Kleingewerbe nach §19 UStG

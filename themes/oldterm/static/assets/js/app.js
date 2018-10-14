@@ -93,4 +93,10 @@ function prepareAccessKeys() {
     }
   });
 
+  // INFO: Easter Egg 
+
+  cheet('o n c e', function () {
+    alert('Voilà!');
+  });
+
 })(window, document);
