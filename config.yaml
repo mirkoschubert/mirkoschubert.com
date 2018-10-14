@@ -1,7 +1,7 @@
 DefaultContentLanguage: en
 languages:
   en:
-    baseURL: 'https://mirkoschubert.com'
+    baseURL: 'https://mirkoschubert.com/'
     contentDir: content.en
     languageName: English
     languageCode: en-us
@@ -9,7 +9,7 @@ languages:
     slogan: Journalist ∙ Musician ∙ Developer
     weight: 1
   de:
-    baseUrl: 'https://mirkoschubert.de'
+    baseUrl: 'https://mirkoschubert.de/'
     contentDir: content.de
     languageName: Deutsch
     languageCode: de-de
@@ -29,4 +29,10 @@ pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
 blackfriday:
   hrefTargetBlank: true
+  noreferrerLinks: true
   fractions: false
+  taskLists: true
+  plainIDAnchors: true
+  extensions:
+    - hardLineBreak
+    - autoHeaderIds

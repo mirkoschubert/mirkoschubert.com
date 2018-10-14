@@ -8,32 +8,32 @@ type: poetry
 draft: false
 ---
 
-> Seit Tagen hat es nun geschneit<br>
-> Es liegt schon seit geraumer Zeit<br>
-> Ein Meter oder noch viel mehr<br>
+> Seit Tagen hat es nun geschneit
+> Es liegt schon seit geraumer Zeit
+> Ein Meter oder noch viel mehr
 > Das freut mich sehr.
-> 
-> Ich schau mir gern die Tannen an<br>
-> Die weißgekleidet irgendwann<br>
-> Von sich die Last des Schnees befrei’n<br>
+
+> Ich schau mir gern die Tannen an
+> Die weißgekleidet irgendwann
+> Von sich die Last des Schnees befrei’n
 > Ja das ist fein.
-> 
-> Und glänzt romantisch jeder Wald<br>
-> Ist auch der Winter nicht zu kalt<br>
-> Denn dieser Anblick wärmt mein Herz<br>
+
+> Und glänzt romantisch jeder Wald
+> Ist auch der Winter nicht zu kalt
+> Denn dieser Anblick wärmt mein Herz
 > Auch ohne Nerz.
-> 
-> Doch dann gibt es ein Tag im Jahr<br>
-> An dem ist Schönheit in Gefahr<br>
-> Denn nun stinkt alles nur nach Rauch<br>
+
+> Doch dann gibt es ein Tag im Jahr
+> An dem ist Schönheit in Gefahr
+> Denn nun stinkt alles nur nach Rauch
 > Schnee leider auch.
-> 
-> Und überall im Weiß verteilt<br>
-> Liegt Müll herum, und man verweilt<br>
-> Nicht gerne mehr an diesem Ort<br>
+
+> Und überall im Weiß verteilt
+> Liegt Müll herum, und man verweilt
+> Nicht gerne mehr an diesem Ort
 > Will lieber fort.
-> 
-> Und seh ich hier den ganzen Dreck<br>
-> Wünsch ich mich wirklich sehr weit weg<br>
-> Schau traurig auf den grauen Wald<br>
+
+> Und seh ich hier den ganzen Dreck
+> Wünsch ich mich wirklich sehr weit weg
+> Schau traurig auf den grauen Wald
 > Und mir ist kalt.

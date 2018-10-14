@@ -8,12 +8,12 @@ type: poetry
 draft: false
 ---
 
-> Einem Göttertanze gleich<br>
-> Jubeln alle Menschen auf den Straßen<br>
-> Schicken bunte Lichter in die schwarze Nacht<br>
-> Singen heitere Lieder<br>
-> Geben alte Regeln auf<br>
-> Verwandeln sie zu neuen<br>
-> Und nehmen sich viel vor -<br>
-> Bloß bei Vollmond<br>
+> Einem Göttertanze gleich
+> Jubeln alle Menschen auf den Straßen
+> Schicken bunte Lichter in die schwarze Nacht
+> Singen heitere Lieder
+> Geben alte Regeln auf
+> Verwandeln sie zu neuen
+> Und nehmen sich viel vor -
+> Bloß bei Vollmond
 > Werden sie alles schon wieder vergessen haben

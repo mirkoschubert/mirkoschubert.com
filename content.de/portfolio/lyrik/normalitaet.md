@@ -8,21 +8,21 @@ type: poetry
 draft: false
 ---
 
-> Ich arbeite, tagein tagaus<br>
-> Mach selbst zu hause keine Paus’<br>
+> Ich arbeite, tagein tagaus
+> Mach selbst zu hause keine Paus’
 > Ist das normal?
-> 
-> Und Du verbringst die meiste Zeit<br>
-> Von Deinem Leben gar im Streit<br>
+
+> Und Du verbringst die meiste Zeit
+> Von Deinem Leben gar im Streit
 > Ist das normal?
-> 
-> Er hat viel Kummer, trinkt schon mal<br>
-> Drei vier fünf Bier -<br>
+
+> Er hat viel Kummer, trinkt schon mal
+> Drei vier fünf Bier -
 > Ist das normal?
-> 
-> Sie steht gerade auf dem Schlauch<br>
-> Doch ohne Geld bekommt sie’s auch<br>
+
+> Sie steht gerade auf dem Schlauch
+> Doch ohne Geld bekommt sie’s auch
 > Ist das normal?
-> 
-> Auch wenn die Welt nicht untergeht…<br>
+
+> Auch wenn die Welt nicht untergeht…
 > Was ist denn noch Normalität?

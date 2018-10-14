@@ -8,24 +8,24 @@ type: poetry
 draft: false
 ---
 
-> Er sitzt auf dem Sofa<br>
-> Starrt in den Fernseher<br>
-> Sieht keine Bilder<br>
-> Seine Gedanken reisen<br>
-> Wissen nicht, wohin Sie steht am Fenster<br>
+> Er sitzt auf dem Sofa
+> Starrt in den Fernseher
+> Sieht keine Bilder
+> Seine Gedanken reisen
+> Wissen nicht, wohin Sie steht am Fenster
 > Schweigt
-> 
-> Ihre Augen sind verquollen<br>
-> Ihre Tränen versiegt<br>
-> Sie hat Angst Draußen ein warmer Regen<br>
-> Dicke Fäden bis hinab auf die Straße<br>
+
+> Ihre Augen sind verquollen
+> Ihre Tränen versiegt
+> Sie hat Angst Draußen ein warmer Regen
+> Dicke Fäden bis hinab auf die Straße
 > Tiefes Grollen in der Ferne
-> 
-> Sie steht draußen an der Tür<br>
-> Ein Ohr ist gegen die Wand gepresst<br>
-> Sie hört das Schweigen<br>
+
+> Sie steht draußen an der Tür
+> Ein Ohr ist gegen die Wand gepresst
+> Sie hört das Schweigen
 > Das Plärren des Fernsehers Tropfen am Fenster
-> 
-> Sie weiß was geschehen ist<br>
-> Weiß was geschehen wird<br>
+
+> Sie weiß was geschehen ist
+> Weiß was geschehen wird
 > Hört auf!

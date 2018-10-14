@@ -8,12 +8,12 @@ type: poetry
 draft: false
 ---
 
-> Du sitzt da auf dem Tellerrand<br>
-> Und starrst mich an, bleibst unerkannt<br>
-> Ich schwimme in der Brühe<br>
+> Du sitzt da auf dem Tellerrand
+> Und starrst mich an, bleibst unerkannt
+> Ich schwimme in der Brühe
 > Und geb’ mir redlich Mühe
-> 
-> Ich gehe unter, welch ein Hohn<br>
-> Du siehst in mir nur Sensation<br>
-> Und schreibst am nächsten Morgen<br>
+
+> Ich gehe unter, welch ein Hohn
+> Du siehst in mir nur Sensation
+> Und schreibst am nächsten Morgen
 > Von mir und and’ren Sorgen

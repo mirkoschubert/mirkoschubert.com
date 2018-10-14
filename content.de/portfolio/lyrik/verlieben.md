@@ -8,47 +8,47 @@ type: poetry
 draft: false
 ---
 
-> Geister ziehen leise<br>
-> Durch den leeren Raum<br>
-> Singen eine Weise<br>
+> Geister ziehen leise
+> Durch den leeren Raum
+> Singen eine Weise
 > Doch ich hör sie kaum
-> 
-> Nach dem ersten Schlage<br>
-> Schwillt das Singen an<br>
-> Stellt sich nur die Frage<br>
+
+> Nach dem ersten Schlage
+> Schwillt das Singen an
+> Stellt sich nur die Frage
 > Ob ich’s spüren kann
-> 
-> Dann beim zweiten, dritten<br>
-> Seh ich sie schon ganz<br>
-> Muss nicht lange bitten<br>
+
+> Dann beim zweiten, dritten
+> Seh ich sie schon ganz
+> Muss nicht lange bitten
 > Um den Geistertanz
-> 
-> Und die Uhr schlägt weiter<br>
-> Nähert sich der Acht<br>
-> Alle tanzen heiter<br>
+
+> Und die Uhr schlägt weiter
+> Nähert sich der Acht
+> Alle tanzen heiter
 > Durch die dunkle Nacht
-> 
-> Plötzlich rasseln Ketten<br>
-> Unten dort im Gang<br>
-> Stören schon den netten<br>
+
+> Plötzlich rasseln Ketten
+> Unten dort im Gang
+> Stören schon den netten
 > Mitternachtsgesang
-> 
-> Und mich plagen Ängste<br>
-> Die ich nie gekannt<br>
-> Sorgen haben bängste<br>
+
+> Und mich plagen Ängste
+> Die ich nie gekannt
+> Sorgen haben bängste
 > Ahnungen gesandt
-> 
-> Doch ich schau mir gerne<br>
-> Diese Ketten an -<br>
-> Nur aus großer Ferne<br>
+
+> Doch ich schau mir gerne
+> Diese Ketten an -
+> Nur aus großer Ferne
 > Und nur dann und wann.
-> 
-> Kurz bevor dem Letzten<br>
-> Fass ich wieder Mut<br>
-> Was die Geister schätzten<br>
+
+> Kurz bevor dem Letzten
+> Fass ich wieder Mut
+> Was die Geister schätzten
 > Ist jetzt doppelt gut
-> 
-> Wenn der Schlag dann ausklingt<br>
-> Tanz ich froh und feist<br>
-> Nichts, was mich hinausbringt<br>
+
+> Wenn der Schlag dann ausklingt
+> Tanz ich froh und feist
+> Nichts, was mich hinausbringt
 > Werde selbst zum Geist

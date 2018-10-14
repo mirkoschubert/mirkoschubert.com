@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/aplayer.css" />
 {{ end }}
 
-{{- $target := printf "%s/assets/css/main.css" .Lang }}
-{{- $css := resources.Get "sass/main.sass" | toCSS (dict "targetPath" $target) | minify }}
-<link rel="stylesheet" href="{{ .Site.BaseURL }}{{ print $css.RelPermalink | replaceRE "^/[a-z]{2}/(.*)" "$1" }}" media="screen" />
+{{ $sass := resources.Get "sass/main.sass" }}
+{{ $style := $sass | resources.ToCSS (dict "targetPath" "assets/css/main.css") | resources.Minify }}
+<!--{{ printf "%#v" $style }}-->
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen" />

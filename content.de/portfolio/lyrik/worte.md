@@ -8,16 +8,16 @@ type: poetry
 draft: false
 ---
 
-> Die Vielfalt dieser Welt kann nur<br>
-> Entdecken wer die Worte kennt<br>
-> Denn welches Stück von der Natur<br>
-> Besingst Du schon in Moll und Dur<br>
+> Die Vielfalt dieser Welt kann nur
+> Entdecken wer die Worte kennt
+> Denn welches Stück von der Natur
+> Besingst Du schon in Moll und Dur
 > Wenn keiner es beim Namen nennt
-> 
-> Doch andrerseits lässt sich hier sagen<br>
-> Auch wenn’s für Dich sehr seltsam klingt<br>
-> Wer wird schon nach dem Namen fragen<br>
-> Die Stille zu durchbrechen wagen<br>
+
+> Doch andrerseits lässt sich hier sagen
+> Auch wenn’s für Dich sehr seltsam klingt
+> Wer wird schon nach dem Namen fragen
+> Die Stille zu durchbrechen wagen
 > Wenn’s ohnehin schon Freude bringt.
 
 *Vorgetragen auf Radio Fritz in der Sendung »Lucy in the Sky« am 16. Dezember 2001.*

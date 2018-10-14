@@ -8,44 +8,44 @@ type: poetry
 draft: false
 ---
 
-> Einst machte sich ein Bit ganz leise<br>
-> Auf eine strapaziöse Reise<br>
-> Bis es dann im Prozessor hing<br>
+> Einst machte sich ein Bit ganz leise
+> Auf eine strapaziöse Reise
+> Bis es dann im Prozessor hing
 > Und nichts mehr weiter ging
-> 
-> Verängstigt saß es in der Ecke<br>
-> Und starrte die Prozessordecke<br>
-> Mit seinen großen Augen an<br>
+
+> Verängstigt saß es in der Ecke
+> Und starrte die Prozessordecke
+> Mit seinen großen Augen an
 > Es schluchzte dann und wann
-> 
-> Nach einer Weile kam das zweite<br>
-> Es suchte aber schnell das Weite<br>
-> Bevor ihm gleiches widerfuhr<br>
+
+> Nach einer Weile kam das zweite
+> Es suchte aber schnell das Weite
+> Bevor ihm gleiches widerfuhr
 > Da war es gänzlich stur
-> 
-> Das dritte, vierte und das fünfte<br>
-> Verschwanden in die Unterkünfte<br>
-> Und schlossen alle Fenster zu<br>
+
+> Das dritte, vierte und das fünfte
+> Verschwanden in die Unterkünfte
+> Und schlossen alle Fenster zu
 > Sie wollten ihre Ruh'
-> 
-> Das sechste und das siebte stritten<br>
-> Da half kein Betteln und kein Bitten<br>
-> Zu helfen war den beiden fremd<br>
+
+> Das sechste und das siebte stritten
+> Da half kein Betteln und kein Bitten
+> Zu helfen war den beiden fremd
 > Das Bit blieb eingeklemmt
-> 
-> Ein letztes aber dann - das achte -<br>
-> Schnell alle seine Freunde brachte<br>
-> Sodann sie in die Ecke stieß<br>
+
+> Ein letztes aber dann - das achte -
+> Schnell alle seine Freunde brachte
+> Sodann sie in die Ecke stieß
 > Das fanden alle mies
-> 
-> Der Lüfter das Dilemma fühlte<br>
-> Und eilig den Prozessor kühlte<br>
-> So wurden alle Bits befreit<br>
+
+> Der Lüfter das Dilemma fühlte
+> Und eilig den Prozessor kühlte
+> So wurden alle Bits befreit
 > Und gleich als ganzes Byte
-> 
-> Und die Moral von der Geschichte<br>
-> Schreib besser keine Bit-Gedichte<br>
-> Denn Bytes sind doch viel besser dran<br>
+
+> Und die Moral von der Geschichte
+> Schreib besser keine Bit-Gedichte
+> Denn Bytes sind doch viel besser dran
 > Und haben einen Plan
 
 *Geschrieben in 256 ... Silben*

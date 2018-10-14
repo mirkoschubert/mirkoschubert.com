@@ -1,0 +1,4 @@
+themes/**/*.html
+node_modules
+public
+resources
