@@ -23,7 +23,6 @@ Anfang 2010 veröffentlichte dann die Ergebnisse auf [mp3.de](https://www.mp3.de
   <dt>Veröffentl.</dt><dd>2010</dd>
   <dt>Format</dt><dd>EP</dd>
   <dt>Genre</dt><dd>Ambient, Downtempo</dd>
-  <dt>Kaufen</dt><dd><a href="" target="_blank">iTunes</a></dd>
   <dt>Download</dt><dd><a accesskey="h" href="/music/electronic-journey/electronic-journey-ep-mirko-schubert.zip">h:Herunterladen</a> &bull; <a accesskey="z" href="https://www.paypal.me/mirkoschubert/5" title="Unterstütze mich!" target="_blank">z:Spenden&sup1;</a></dd>
 </dl>
 

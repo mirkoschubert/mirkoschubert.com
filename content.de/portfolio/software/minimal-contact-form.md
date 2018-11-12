@@ -4,11 +4,19 @@ author: "mirko"
 date: 2018-06-23T19:49:16+01:00
 urls:
   back: "/portfolio/software/"
+  visit: "https://wordpress.org/plugins/minimal-contact-form/"
+images:
+  - "/images/software/minimal-contact-form.png"
+  - "/images/software/minimal-contact-form@2x.png"
 type: software
 draft: false
 ---
 
-Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
+![Screenshot](/images/software/minimal-contact-form.jpg)
+
+**Minimal Contact Form** ist ein WordPress Plugin, das ein einfaches Kontaktformular in die Webseite integriert. Anders als die großen Formbuilder beschränkt sich das Plugin auf wenige Funktionen, dafür aber eine ausgezeichnete Usability (Benutzbarkeit).
+
+In nur vier Einstellungen, die in den meisten Fällen noch nicht einmal verändert werden müssen, bietet die Erweiterung ein stabiles Kontaktformular mit Spam-Schutz nach der Honeypot-Methode, Validierung, AJAX und wahlweise Versendung über PHPMail oder WPMail. Das Besondere ist aber, dass es automatisch DSGVO-konforme Texte mit oder ohne Checkbox in deutscher und englischer Sprache bereitstellt.
 
 <dl>
   <dt>Veröffentl.</dt><dd>06/2018</dd>
