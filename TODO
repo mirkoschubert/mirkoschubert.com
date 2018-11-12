@@ -1,5 +1,5 @@
 Theme:
-  ☐ Migrate all `hack` and `dark` elements in sass
+  ✔ Migrate all `hack` and `dark` elements in sass @done(18-11-12 11:29)
   ☐ Create a proper `index` layout
   ✔ Format Code Highlighter (and migrate from Gist) @done(18-08-16 14:12)
   ✔ Find a solution for sub headings @done(18-08-16 14:12)
@@ -9,12 +9,12 @@ Theme:
   ☐ Create useful shortcodes
 Content:
   ☐ Plan content for home page
-  ☐ Complete texts and images in `journalism` section
+  ✔ Complete texts and images in `journalism` section @done(18-11-12 13:30)
   ☐ Complete texts and images in `software` section
   ☐ Complete images in `websites` section
-  ☐ Integrate long version of `privacy` statement and switch between both
+  ✔ Integrate long version of `privacy` statement and switch between both @done(18-10-14 18:20)
 Ideas:
   ☐ Think about an `about` section
   ☐ Contact section: Form like a terminal prompt
 Bugs:
-  ☐ 
+  ☐ CORPS problem in Chrome (assets loaded from port 1313 in 1314)

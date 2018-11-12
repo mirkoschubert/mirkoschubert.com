@@ -1,7 +1,7 @@
 ---
 title: "4phones.de"
 author: "mirko"
-date: 2018-05-27T19:49:16+01:00
+date: 2011-02-01T19:49:16+01:00
 urls:
   back: "/portfolio/journalismus/"
   visit: "https://www.4phones.de"

@@ -1,7 +1,7 @@
 ---
 title: "teltarif.de"
 author: "mirko"
-date: 2018-05-27T19:49:16+01:00
+date: 2011-03-30T19:49:16+01:00
 urls:
   back: "/portfolio/journalismus/"
   visit: "https://www.teltarif.de"
@@ -14,7 +14,7 @@ draft: false
 
 ![Screenshot](/images/journalism/teltarif.jpg)
 
-Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
+Für das bekannte Berliner Online-Magazin **Teltarif** schrieb ich als freier Journalist zahlreiche News zum Thema IT & Consumer Electronics, erstellte Anleitungen und verfasste so einige Renzensionen zu aktuellen Mobiltelefonen und Smartphones.
 
 <dl>
   <dt>Zeitraum</dt><dd>2011/12</dd>

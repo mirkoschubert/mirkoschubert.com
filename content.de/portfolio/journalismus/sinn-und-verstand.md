@@ -1,18 +1,24 @@
 ---
 title: "sinn-und-verstand.net"
 author: "mirko"
-date: 2018-05-27T19:49:16+01:00
+date: 2012-09-01T19:49:16+01:00
 urls:
   back: "/portfolio/journalismus/"
+  visit: "http://sinn-und-verstand.net/"
+images:
+  - "/images/journalism/sinn-und-verstand.jpg"
+  - "/images/journalism/sinn-und-verstand@2x.jpg"
 type: journalism
 draft: false
 ---
 
-Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
+![Screenshot](/images/journalism/sinn-und-verstand.jpg)
+
+Bei **Sinn und Verstand**, einer Crossmedia-Agentur aus Hamburg, verfasste ich unzählige App-Empfehlungen für iOS-, Android- und Windows-Phone-Smartphones, die dann auf einem sehr bekannten Magazin eines deutschen Mobilfunkanbieters erschienen.
 
 <dl>
   <dt>Zeitraum</dt><dd>2012</dd>
-  <dt>Status</dt><dd>Offline</dd>
+  <dt>Status</dt><dd>Online</dd>
   <dt>Ressort</dt><dd>IT & Consumer Electronics</dd>
   <dt>Schwerpunkt</dt><dd>App-Empfehlungen</dd>
 </dl>

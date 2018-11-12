@@ -1,7 +1,7 @@
 ---
 title: "7mobile-blog.de"
 author: "mirko"
-date: 2018-05-27T19:49:16+01:00
+date: 2011-02-01T19:49:16+01:00
 urls:
   back: "/portfolio/journalismus/"
   visit: "https://www.7mobile.de/handy-news/"
@@ -14,7 +14,7 @@ draft: false
 
 ![Screenshot](/images/journalism/7mobile.jpg)
 
-Vitae sint sapiente consequuntur dolor cum hic quam consequatur unde. Nihil hic neque autem voluptatum reprehenderit vel dolore. Atque et labore in voluptas error minima. Quam voluptatum est voluptatem repellat voluptas natus impedit. Nam aliquam nisi non repudiandae. Molestiae hic voluptas provident optio modi laborum veniam rerum.
+Im Jahr 2011 schrieb ich für den Unternehmensblog des Mobilfunk-Shops **7mobile** und berichtete über Neuentwicklungen auf dem Smartphone-Markt.
 
 <dl>
   <dt>Zeitraum</dt><dd>2011</dd>
