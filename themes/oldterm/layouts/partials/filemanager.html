@@ -2,7 +2,7 @@
   <ul class="filemanager">
   {{ if .Params.urls.back }}
     <li>
-      <a accesskey="." href="{{ .Params.urls.back }}">
+      <a accesskey="." href="{{ .Params.urls.back | relURL }}">
         <span class="key">.</span>
         <span class="author">mirko</span>
         <span class="rdtime">--</span>
@@ -19,7 +19,7 @@
     <!--{{ printf "%#v" .Type }}-->
     <li>
       {{ if (eq .Type "link") }}
-      <a accesskey="{{ $key }}" href="{{ .Params.goto }}" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_blank">
+      <a accesskey="{{ $key }}" href="{{ .Params.goto | absURL }}" referrerpolicy="no-referrer" rel="noreferrer noopener" target="_blank">
       {{ else }}
       <a accesskey="{{ $key }}" href="{{ .URL }}">
       {{ end }}

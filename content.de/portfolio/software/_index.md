@@ -7,3 +7,5 @@ urls:
   back: "/portfolio/"
 draft: false
 ---
+
+Ausgewählte Software-Projekte, die ich zumeist unter eine Open-Source-Lizenz stelle, findest Du hier.

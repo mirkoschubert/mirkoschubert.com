@@ -4,7 +4,7 @@
       <tr>
         <td class="back">
           {{ if and .IsPage .Params.urls.back }}
-            <a accesskey="." href="{{ .Params.urls.back }}">{{ i18n "back" }}</a>
+            <a accesskey="." href="{{ .Params.urls.back | relURL }}">{{ i18n "back" }}</a>
           {{ end }}
         </td>
         <td class="pages">
@@ -23,7 +23,7 @@
         </td>
         <td class="visit">
           {{ if and .IsPage .Params.urls.visit }}
-            <a accesskey="{{ i18n "visitkey" }}" href="{{ .Params.urls.visit }}" target="_blank">{{ i18n "visit" }}</a>
+            <a accesskey='{{ i18n "visitkey" }}' href="{{ .Params.urls.visit | absURL }}" target="_blank">{{ i18n "visit" }}</a>
           {{ end }}
         </td>
       </tr>

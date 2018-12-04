@@ -6,3 +6,5 @@ urls:
   back: "/portfolio/"
 draft: false
 ---
+
+Auch die Fotografie gehört zu meinen Leidenschaften, die ich anders als viele andere Künste nie zum Beruf gemacht habe.

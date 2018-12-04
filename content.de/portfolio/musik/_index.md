@@ -7,3 +7,5 @@ urls:
   back: "/portfolio/"
 draft: false
 ---
+
+Musik ist für mich die Essenz des Lebens. Als Musiker und Diplom-Musikpädagoge war ich viele Jahre unterwegs.

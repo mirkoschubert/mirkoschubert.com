@@ -1,7 +1,7 @@
 DefaultContentLanguage: en
 languages:
   en:
-    baseURL: 'https://localhost:1313/'
+    baseURL: 'https://mirkoschubert.com/'
     contentDir: content.en
     languageName: English
     languageCode: en-us
@@ -11,7 +11,7 @@ languages:
       articles: '/article/:title'
     weight: 1
   de:
-    baseUrl: 'https://localhost:1314/'
+    baseUrl: 'https://mirkoschubert.de/'
     contentDir: content.de
     languageName: Deutsch
     languageCode: de-de

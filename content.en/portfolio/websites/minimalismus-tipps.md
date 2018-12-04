@@ -8,7 +8,7 @@ urls:
 images:
   - "/images/websites/minimalismus-tipps-x2.jpg"
   - "/images/websites/minimalismus-tipps.jpg"
-draft: true
+draft: false
 ---
 
 ![Screenshot](/images/websites/minimalismus-tipps-x2.jpg)

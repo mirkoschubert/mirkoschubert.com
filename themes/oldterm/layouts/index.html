@@ -3,9 +3,6 @@
 {{- end }}
 {{ define "header" }}{{ end }}
 {{ define "main" }}
-  <header>
-    <h1>{{ .Title }}</h1>
-  </header>
   <div id="typewriter">{{ .Content }}</div>
   {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
     {{ partial "page-summary.html" . }}

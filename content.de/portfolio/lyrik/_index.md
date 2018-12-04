@@ -7,3 +7,5 @@ urls:
   back: "/portfolio/"
 draft: false
 ---
+
+Mein lyrisches Schaffen begann irgendwann in den 90er Jahren und fand seinen Höhepunkt in den 2000ern.

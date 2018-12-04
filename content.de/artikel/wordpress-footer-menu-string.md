@@ -9,9 +9,10 @@ type: "article"
 images:
   - "/images/articles/wordpress.jpg"
   - "/images/articles/wordpress@2x.jpg"
+#url: "/artikel/wordpress-footer-menu/"
 urls:
   back: "/artikel/"
-draft: false
+draft: true
 ---
 
 Ob Impressum, Datenschutzerklärung oder Mediadaten — ein Footer-Menü ist auf vielen Webseiten obsolet. Doch WordPress macht es uns leider nicht leicht, denn die übliche Funktion gibt das Menü statt als String mit Trennern als Liste aus. Eine kleine eigene Funktion schafft hier aber schnell Abhilfe.

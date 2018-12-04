@@ -7,3 +7,5 @@ urls:
   back: "/portfolio/"
 draft: false
 ---
+
+**Flash Fiction** sind ultrakurze Kurzgeschichten von weniger als 140 Zeichen (Twitter) bis maximal 2.000 Wörter.

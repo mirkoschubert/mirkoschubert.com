@@ -7,3 +7,5 @@ urls:
   back: "/portfolio/"
 draft: false
 ---
+
+Seit 2009 arbeite ich als freier Journalist für viele Online-Magazine und Blogs, vor allem im Ressort IT & Consumer Electronics.

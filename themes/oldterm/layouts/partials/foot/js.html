@@ -1,5 +1,5 @@
 {{ if and (ne .Params.typewriter nil) (eq .Params.typewriter true) }}
-  <script src="{{ .Site.BaseURL }}assets/js/typewriter.js"></script>
+  <script src='{{ "/assets/js/typewriter.min.js" | relURL }}'></script>
 {{ end }}
-<script src="{{ .Site.BaseURL }}assets/js/cheet.min.js"></script>
-<script src="{{ .Site.BaseURL }}assets/js/app.js"></script>
+<script src='{{ "/assets/js/cheet.min.js" | relURL }}'></script>
+<script src='{{ "/assets/js/app.min.js" | relURL }}'></script>

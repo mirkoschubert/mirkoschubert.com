@@ -35,10 +35,10 @@
     <!-- CSS DECLARATIONS -->
     {{ partial "head/css.html" . }}
 
-    <script src="{{ .Site.BaseURL }}assets/js/baffle.min.js"></script>
+    <script src='{{ "/assets/js/baffle.min.js" | relURL }}'></script>
     {{ $lazylist := findRE "class=\".*?\\blazyload\\b.*?\"|class=lazyload\b" .Content }}<!-- http://regexr.com/3f9d1 -->
     {{ if ge (len $lazylist) 1 }}
-      <script async src="/assets/js/lazysizes.min.js"></script>
+      <script async src='{{ "/assets/js/lazysizes.min.js" | relURL }}'></script>
     {{ end }}
   </head>
   {{ $theme_variant := .Site.Params.theme_variant | default "hack dark" }}
@@ -50,7 +50,9 @@
         {{ partial "main-menu.html" . }}
       {{ end }}
     </header>
-    <main class="site-main container{{ if ne .Type nil }}{{ printf " %s" .Type }}{{ end }}">{{ block "main" . }}{{ end }}</main>
+    <main class='site-main container{{ if ne .Type nil }}{{ printf " %s" .Type }}{{ end }}'>
+      {{ block "main" . }}{{ end }}
+    </main>
     <script>baffle('.hack h1').start().reveal(1000);</script>
     <footer class="site-footer">
       {{ block "footer" . }}

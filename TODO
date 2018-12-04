@@ -12,9 +12,11 @@ Content:
   ✔ Complete texts and images in `journalism` section @done(18-11-12 13:30)
   ✔ Complete texts and images in `software` section @done(18-11-12 14:07)
   ☐ Complete images in `websites` section
+  ✔ Complete descriptions in the `portfolio` section @done(18-11-12 15:34)
   ✔ Integrate long version of `privacy` statement and switch between both @done(18-10-14 18:20)
 Ideas:
   ☐ Think about an `about` section
   ☐ Contact section: Form like a terminal prompt
+  ☐ Make images old with CSS3 and/ or JS
 Bugs:
   ☐ CORPS problem in Chrome (assets loaded from port 1313 in 1314)

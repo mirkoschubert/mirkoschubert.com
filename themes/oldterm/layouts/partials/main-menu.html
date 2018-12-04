@@ -3,7 +3,7 @@
   {{ $currentNode := . }} {{ range .Site.Menus.main }}
 <!--   {{ printf "%#v" ($currentNode.IsMenuCurrent "main" . ) }} -->
   
-  <a itemprop="url" accesskey="{{ .Post }}" class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}">
+  <a itemprop="url" accesskey="{{ .Post }}" class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL | relURL }}">
     <span itemprop="name"><strong>{{ .Post }}</strong>:{{ .Name }}</span>
   </a>
   {{ end }}

@@ -11,4 +11,8 @@ menu:
     post: "k"
 ---
 
-Possimus ut quas rerum. Eum ut consequuntur ea mollitia odio nulla. Exercitationem earum officiis voluptatum impedit consequuntur adipisci cumque pariatur laborum. Optio quod consequatur. Nemo quos placeat sed autem in aperiam non quis nobis.
+Du hast Anregungen oder Kritik, möchtest mit mir zusammen arbeiten oder mich beauftragen? Dann schreibe mir doch eine E-Mail an:
+
+[office@mirkoschubert.de](mailto:office@mirkoschubert.de)
+
+Ich weise darauf hin, dass ich per Mail keinen Support für meine Open Source Software-Lösungen biete. Bitte eröffne dazu ein Ticket im jeweiligen [Github-Repository](https://github.com/mirkoschubert)!

@@ -14,8 +14,8 @@ const rename = require('gulp-rename');
 //const watch = require('gulp-watch')
 const runSequence = require('run-sequence');
 
-// HTML
-gulp.task('tools:html', () => {
+// HTML (after Hugo generation)
+gulp.task('html', () => {
   return gulp
     .src('public/**/*.html')
     .pipe(
@@ -26,8 +26,8 @@ gulp.task('tools:html', () => {
     .pipe(gulp.dest('public/'));
 });
 
-// CSS
-gulp.task('tools:sass', () => {
+// SASS -> CSS
+gulp.task('sass', () => {
   return gulp
     .src('src/sass/**/*.sass')
     .pipe(sass({ errLogToConsole: true, style: 'expanded' }))
@@ -39,24 +39,40 @@ gulp.task('tools:sass', () => {
       })
     )
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('static/assets/css/'));
+    .pipe(gulp.dest('themes/oldterm/static/assets/css/'));
 });
 
-// JavaScript
-gulp.task('tools:js', () => {
-  return (
-    gulp
-      .src('public/assets/js/**/*.js')
-      .pipe(eslint())
-      .pipe(eslint.format())
-      .pipe(eslint.failAfterError)
-      .pipe(uglify())
-      //.pipe(rename({ suffix: '.min' }))
-      .pipe(gulp.dest('public/assets/js/'))
-  );
+// JS minify files
+gulp.task('jsmin', () => {
+  return gulp
+    .src(['src/js/**/*.js', '!src/js/**/*.min.js'])
+    //.pipe(eslint())
+    //.pipe(eslint.format())
+    //.pipe(eslint.failAfterError)
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest('themes/oldterm/static/assets/js/'));
+});
+    
+// JS copy already minified files
+gulp.task('jscp', () => {
+  return gulp
+    .src('src/js/**/*.min.js')
+    .pipe(gulp.dest('themes/oldterm/static/assets/js/'));
 });
 
-// Run all one after another
-gulp.task('tools:all', cb => {
-  runSequence(['tools:html', 'tools:sass', 'tools:js'], cb);
+// All JS tasks
+gulp.task('js', cb => {
+  runSequence(['jsmin', 'jscp'], cb);
+})
+
+// All tasks BEFORE Hugo generation
+gulp.task('before', cb => {
+  runSequence(['sass', 'js'], cb);
 });
+
+// All tasks AFTER Hugo generation
+gulp.task('after', cb => {
+  runSequence(['html'], cb);
+});
+

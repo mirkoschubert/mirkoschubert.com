@@ -11,4 +11,4 @@ menu:
     post: "p"
 ---
 
-Minima ratione voluptas nobis libero quam. Quas qui omnis ipsa incidunt harum quam neque dolor.
+Einen Überblick über mein Schaffen im künstlerischen und techischen Bereich erhältst Du hier.

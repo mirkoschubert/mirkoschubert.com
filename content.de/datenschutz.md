@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 date: 2018-03-24T10:49:16+01:00
-draft: true
+draft: false
 menu:
   footer:
     name: "Datenschutz"
@@ -13,13 +13,13 @@ menu:
 
 Diese Datenschutzerklärung gilt für:
 
-- [mirkoschubert.de](https://mirkoschubert.de/)
-- [mirkoschubert.com](https://mirkoschubert.com/)
-- [digitaler-minimalismus.de](https://digitaler-minimalismus.de/)
-- [flussabwaerts.de](https://flussabwaerts.de/)
-- [minimalismus-tipps.de](https://minimalismus-tipps.de/)
-- [Twitter](https://twitter.com/mirkoschubert)
-- [500px](https://500px.com/mirkoschubert)
+* [mirkoschubert.de](https://mirkoschubert.de/)
+* [mirkoschubert.com](https://mirkoschubert.com/)
+* [digitaler-minimalismus.de](https://digitaler-minimalismus.de/)
+* [flussabwaerts.de](https://flussabwaerts.de/)
+* [minimalismus-tipps.de](https://minimalismus-tipps.de/)
+* [Twitter](https://twitter.com/mirkoschubert)
+* [500px](https://500px.com/mirkoschubert)
 
 Sie wurde zuletzt am 23. April 2018 aktualisiert.
 

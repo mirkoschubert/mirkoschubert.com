@@ -1,5 +1,5 @@
 {{ if ne .Params.music nil }}
-<script src="{{ .Site.BaseURL }}assets/js/aplayer.min.js"></script>
+<script src='{{ "/assets/js/aplayer.min.js" | relURL }}'></script>
 <script type="text/javascript">
   var ap1 = new APlayer({
     container: document.getElementById('player1'),
@@ -11,7 +11,7 @@
         name: {{ $entry.title }},
         artist: {{ if ne $entry.artist nil }}{{ $entry.artist }}{{ else }}"Mirko Schubert"{{ end }},
         url: {{ printf "%s" $entry.url }},
-        cover: {{ if ne $entry.cover nil }}{{ $entry.cover }}{{ else }}"/assets/img/no-cover.jpg"{{ end }}
+        cover: {{ if ne $entry.cover nil }}{{ $entry.cover }}{{ else }}{{ "/assets/img/no-cover.jpg" | relURL }}{{ end }}
       },
       {{ end }}
     ]

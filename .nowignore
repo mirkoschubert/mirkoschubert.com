@@ -1,0 +1,12 @@
+.DS_Store
+.git
+.trash
+.vscode
+
+node_modules
+
+public
+static/music
+themes/after-dark
+
+deploy.sh

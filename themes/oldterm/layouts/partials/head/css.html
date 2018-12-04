@@ -1,8 +1,5 @@
-{{ if and (eq .Type "music") (ne .Params.music nil) }}
-<link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/aplayer.css" />
-{{ end }}
+<!--{{ if and (eq .Type "music") (ne .Params.music nil) }}
+<link rel="stylesheet" href='{{ "/assets/css/aplayer.min.css" | relURL }}' />
+{{ end }}-->
 
-{{ $sass := resources.Get "sass/main.sass" }}
-{{ $style := $sass | resources.ToCSS (dict "targetPath" "assets/css/main.css") | resources.Minify }}
-<!--{{ printf "%#v" $style }}-->
-<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen" />
+<link rel="stylesheet" href='{{ "/assets/css/main.min.css" | relURL }}' media="screen" />
