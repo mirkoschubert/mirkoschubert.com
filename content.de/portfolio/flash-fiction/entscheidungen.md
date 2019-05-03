@@ -14,4 +14,4 @@ Magst Du Deinen Kaffee lieber schwarz oder mit Milch und Zucker? Soll ich heute 
 
 Keine dieser Entscheidungen fallen leicht, aber ihr Gegenspieler - die Gewohnheit - macht sie häufig erträglicher. Wir müssen nicht jedes Mal den Kaffee neu erfinden - wir trinken ihn lieber immer schwarz. Und auch arbeiten gehen wir an fast jedem Wochentag.
 
-Bleiben noch die schweren Entscheidungen, die wohl überlegt sein sollten. Weil sie andere Entscheidungen beeinflussen und so einen neuen, erschwerlichen Konsens bilden.
+Bleiben noch die schweren Entscheidungen, die wohl überlegt sein sollten. Weil sie andere Entscheidungen beeinflussen und so einen neuen, beschwerlichen Konsens bilden.

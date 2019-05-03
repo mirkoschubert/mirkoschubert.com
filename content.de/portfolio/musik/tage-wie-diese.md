@@ -58,7 +58,7 @@ Während meines Studiums hatte ich viel [Lyrik](/portfolio/lyrik/) geschrieben u
 
 Bei den Songs **Leere Eitelkeit** und **Deine Welt** unterstützte mich die Musikerin [Jana Hoffmann](https://www.jana-hoffmann.de) mit ihren Texten.
 
-Auf Anraten eines Musiklabels nahm ich später einige der Titel erneut auf, um eine größere Besetzung auszuprobieren und Auftritte mit Band zu planen. Als Bonus habe ich deshalb den überarbeiteten Song **Perfekt** angehanden.
+Auf Anraten eines Musiklabels nahm ich später einige der Titel erneut auf, um eine größere Besetzung auszuprobieren und Auftritte mit Band zu planen. Als Bonus habe ich deshalb den überarbeiteten Song **Perfekt** angehangen.
 
 <dl>
   <dt>Veröffentl.</dt><dd>2004</dd>

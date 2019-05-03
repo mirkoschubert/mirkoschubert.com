@@ -8,9 +8,9 @@ type: flashf
 draft: false
 ---
 
-»Bist Du bereit?« Der alte Mann schlug das Buch auf und sah seinen Enkel fragend an. Neben im knisterte es im Kamin, der ihm gerade genügend Licht spendete, dass seine müden Augen die verzierte Schrift entziffern konnten. Sein alter Sessel knarzte leise, als er sich zu seinem eigen Fleisch und Blut herunterbeugte.
+»Bist Du bereit?« Der alte Mann schlug das Buch auf und sah seinen Enkel fragend an. Neben ihm knisterte es im Kamin, der ihm gerade genügend Licht spendete, dass seine müden Augen die verzierte Schrift entziffern konnten. Sein alter Sessel knarzte leise, als er sich zu seinem eigen Fleisch und Blut herunterbeugte.
 
-Der Junge saß auf dem flauschigen Teppich, sah zu seinem Großvater hoch und nickte. Sonst war er nie so still, doch jedesmal, wenn er bei ihm war, fühlte er eine heimelige Atmosphäre. Besonders jetzt.
+Der Junge saß auf dem flauschigen Teppich, sah zu seinem Großvater hoch und nickte. Sonst war er nie so still, doch jedes Mal, wenn er bei ihm war, fühlte er eine heimelige Atmosphäre. Besonders jetzt.
 
 Sein Opa lehnte sich zurück, räusperte sich und begann:
 

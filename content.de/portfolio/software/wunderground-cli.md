@@ -14,7 +14,7 @@ draft: false
 
 ![Screenshot](/images/software/wunderground.jpg)
 
-**Wunderground CLI** ist ein Kommandozeilen-Tool, das das aktuelle Wetter in schön graphisch aufbearbeiteter Form anzeigt. Wie der Name schon sagt, verwendet die Software die umfangreichen Wetterdaten von [wunderground.com](https://www.wunderground.com/), die durch die große Zahl von privaten und öffentlichen Wetterstationen ein sehr genaues Bild abliefern.
+**Wunderground CLI** ist ein Kommandozeilen-Tool, das das aktuelle Wetter in schön grafisch aufgearbeiteter Form anzeigt. Wie der Name schon sagt, verwendet die Software die umfangreichen Wetterdaten von [wunderground.com](https://www.wunderground.com/), die durch die große Zahl von privaten und öffentlichen Wetterstationen ein sehr genaues Bild abliefern.
 
 <dl>
   <dt>Veröffentl.</dt><dd>08/2017</dd>

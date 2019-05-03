@@ -9,7 +9,7 @@ draft: false
 ---
 
 > Ich arbeite, tagein tagaus
-> Mach selbst zu hause keine Paus’
+> Mach selbst zu Hause keine Paus’
 > Ist das normal?
 
 > Und Du verbringst die meiste Zeit

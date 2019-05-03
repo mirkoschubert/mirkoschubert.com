@@ -16,7 +16,7 @@ menu:
 
 ![15 Jahre](/images/15-years.png '15 Jahre')
 
-Es gibt etwas zu feiern! Im September 2003 habe ich mein Haupt-Webseite mirkoschubert.de eröffnet - somit sind inzwischen stolze 15 Jahre ins Land gegangen.
+Es gibt etwas zu feiern! Im September 2003 habe ich meine Haupt-Webseite mirkoschubert.de eröffnet - somit sind inzwischen stolze 15 Jahre ins Land gegangen.
 
 Auch wenn ich schon deutlich länger in diesem »Internetz« zugange bin (das wären dann 22 Jahre), hat mein Baby gleich einmal ein neues Design verdient. Ganz Retro, im Look alter Terminal-Anwendungen, kehre ich hiermit wieder zu meinen Wurzeln zurück und präsentiere Dir, lieber Leser, mein Schaffen über die vielen Jahre sowie viel Wissenswertes über mich.
 
