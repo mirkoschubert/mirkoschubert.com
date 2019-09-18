@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "gulp": "^4.0.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-eslint": "^5.0.0",
